@@ -132,11 +132,14 @@ textarea {
 
 .yellow {
     color: #fbcd49 !important;
-
 }
 
 .blue {
-    color: #487cbf !important;
+    color: #00bbda !important;
+}
+
+.dkblue {
+    color: #00a5c1;
 }
 
 .gray {
@@ -188,6 +191,13 @@ textarea {
     width: 25%;
 }
 
+.dots{
+    color: #beccd5 !important;
+    margin: 0;
+    font-size: 1.1em !important;
+    font-family: arial !important;
+}
+
 /* Header Styles */
 
 #header{
@@ -222,7 +232,7 @@ textarea {
 /* Hero Styles */
 
 #hero {
-    background: url('../img/herobkgrd2.jpg') repeat;
+    background: url('../img/hero.jpg') no-repeat center top;
     /*background: #f28429; /* Old browsers */
     /*background: -moz-linear-gradient(top,  #f28429 0%, #f7a928 100%); /* FF3.6+ */
     /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f28429), color-stop(100%,#f7a928)); /* Chrome,Safari4+ */
@@ -231,33 +241,36 @@ textarea {
     /*background: -ms-linear-gradient(top,  #f28429 0%,#f7a928 100%); /* IE10+ */
     /*background: linear-gradient(to bottom,  #f28429 0%,#f7a928 100%); /* W3C */
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28429', endColorstr='#f7a928',GradientType=0 ); /* IE6-9 */
-
-
     max-width: 100%;
-    height: 434px;
+    height: 388px;
     display: block;
 }
 
 #hero h1{
     color:#ffffff;
     font-family: 'Oswald', sans-serif;
-    font-weight: normal;
-    font-size: 3.0em;
+    font-size: 7em;
     margin: 0;
     padding-left: 0;
     text-align: center;
 }
 
 #hero p{
-    color: #ffffff;
-    font-size: 1.5em;
-    margin: 50px 0 0 25px;
-    width: 95%;
+    font-family: 'Oswald', sans-serif;
+    color: #58595b;
+    font-size: 1.8em;
+    text-align: center;
+    width: 53%;
+    margin: 15px 0 0 0;
+}
+
+#no_setup{
+    margin-top: 80px;
 }
 
 #hero img{
     display: inline-block;
-    padding-left:90%;
+    padding-left: 90%;
 }
 
 #hero .container{
@@ -265,8 +278,8 @@ textarea {
 }
 
 #label{
-    width: 53%;
-    padding: 65px 0 0 0;
+    width: 100%;
+    padding: 7px 0 0 0;
     height: 310px;
     float: left;
 }
@@ -296,8 +309,6 @@ textarea {
 }
 
 #content img{
-    margin-bottom: 70px;
-    margin-right: 20px;
     max-width: 100%;
 }
 
@@ -309,21 +320,36 @@ textarea {
 
 #cta {
     width: 100%;
-    background: #ebebec;
-    margin-top: 50px;
     padding-bottom: 50px;
+}
+
+#cta .container{
+    border: 2px dotted #beccd5;
+    padding: 40px;
+}
+
+#cta .container .right_col{
+    width: 50%;
+    text-align: left;
+    margin: 0 0 0 60px;
+    float: none;
+    display: inline-block;
+}
+
+#cta .container .left_col{
+    width: 40%;
+    display: inline-block;
+    padding-top: 25px;
 }
 
 #cta h1{
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
-
 }
 
 #cta p{
     display: inline-block;
     font-size: 1em;
-    padding: 20px 40px;
 }
 
 .services {
@@ -371,7 +397,7 @@ li {
 .right_col {
     width: 48%;
     display: inline-block;
-    margin: 20px 0;
+    margin: 20px 0 70px 0;
     float: right;
 }
 
@@ -436,10 +462,9 @@ li {
 
 #signup {
     float: right;
-    width: 32%;
+    width: 80%;
     background: #ebebec;
     border: 10px solid #ffffff;
-    margin-top: 60px;
 }
 
 #signup .box {
@@ -453,11 +478,12 @@ li {
 
 #signup .red{
     text-align: center;
-    padding: 15px 0;
+    padding: 30px 0 15px 0;
 }
 
 .form{
     margin: 5px 20px;
+    padding-bottom: 10px;
 }
 
 #signup input[type="text"] {
@@ -516,7 +542,7 @@ input.phone{
 #signup h1, #signup h2 { margin-bottom: 25px; }
 
 #signup h1 { 
-    color: #00bbda;
+    color: #667984;
     font-family: 'Oswald';
     font-size: 1.8em; 
     font-weight: normal; 
@@ -531,12 +557,12 @@ input.phone{
     font-size: 9px;
     line-height: 120%;
     text-align: left;
-    margin: 10px 10px;
+    margin: 20px 10px 10px 10px;
     font-family: Helvetica;
 }
 
 .designs{
-    background: #00bbda;
+    background: #f5982a;
     width: 180px;
     height: 37px;
     text-align: center;
@@ -549,7 +575,7 @@ input.phone{
 }
 
 .designs:hover{
-    background-color: #4687c7;
+    background-color: #00bbda;
 }
 
 
