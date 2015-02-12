@@ -204,7 +204,6 @@ textarea {
     max-width: 100%;
     height: 85px;
     background: #ffffff;
-    box-shadow: 0 0 10px #000000;
     position: relative;
 
 }
@@ -318,9 +317,13 @@ textarea {
 
 }
 
+#content .container .left_col p{
+    margin-top: 1.9em;
+}
+
 #cta {
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 #cta .container{
