@@ -193,7 +193,7 @@ textarea {
 
 .dots{
     color: #beccd5 !important;
-    margin: 0;
+    margin: 0 !important;
     font-size: 1.1em !important;
     font-family: arial !important;
 }
@@ -260,11 +260,11 @@ textarea {
     font-size: 1.8em;
     text-align: center;
     width: 53%;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 #no_setup{
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 #hero img{
