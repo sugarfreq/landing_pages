@@ -191,13 +191,6 @@ textarea {
     width: 25%;
 }
 
-.dots{
-    color: #beccd5 !important;
-    margin: 0 !important;
-    font-size: 1.1em !important;
-    font-family: arial !important;
-}
-
 /* Header Styles */
 
 #header{
@@ -242,7 +235,7 @@ textarea {
 /* Hero Styles */
 
 #hero {
-    background: url('../img/herobkgrd.jpg') no-repeat center top;
+    background: url('../img/herobkgrd2.jpg') no-repeat center top;
     max-width: 100%;
     height: 570px;
     display: block;
@@ -280,6 +273,13 @@ textarea {
     font-size: 24px;
     text-align: center;
     margin: 10px 0 0 0;
+}
+
+#hero p.dots{
+    color: #beccd5;
+    margin: 0;
+    font-size: 1.1em;
+    font-family: arial;
 }
 
 #hero .right_col{
@@ -372,6 +372,10 @@ textarea {
     font-size: 14px;
     line-height: 24px;
     color: #58595b;
+}
+
+#cta img{
+    max-width: 100%;
 }
 
 .services {
@@ -695,23 +699,33 @@ input.phone{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 720px) and (max-width: 1000px) {
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
     /* Style adjustments for viewports that meet the condition */
+    
+    .container{
+        width: 90%;
+    }
+
     #label {
         width: 45%;
         padding: 30px 0 0 0;
+    }
+
+    #hero {
+        height: 530px;
     }
 
     #hero h1{
         font-size: 2.9em;
     }
 
-    #hero img{
-        display: none;
+    #hero p.dots {
+        font-size: 0.9em;
     }
+
     
     #signup {
-        width: 45%;
+        width: 300px;
     }
 
     #signup h1{
@@ -720,7 +734,7 @@ input.phone{
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 720px) {
+@media only screen and (min-width: 320px) and (max-width: 800px) {
     /* Style adjustments for viewports that meet the condition */
     #header p {
         margin: 0 auto;
@@ -740,10 +754,18 @@ input.phone{
 
     #hero{
         height: 100%;
+        background: url('../img/herobkgrd2.jpg') no-repeat left 31% top;
     }
-    
-    #hero img{
-        display: none;
+
+    #hero .left_col {
+        width: 100%;
+        float: none;
+        height: 420px;
+    }
+
+    #hero .right_col {
+        width: 100%;
+        float: none;
     }
 
     #label {
@@ -757,10 +779,7 @@ input.phone{
         float: none;
         display: block;
         width: 100%;
-        border-top: 10px solid #ffffff;
-        border-bottom: 10px solid #ffffff;
-        border-left: 0;
-        border-right: 0;
+        margin: 0;
     }
 
     .right_col{
@@ -785,14 +804,30 @@ input.phone{
         margin: 10px 0;
     }
 
-    #content img{
-        margin-bottom: 0;
-        margin-top: 20px;
+    #quote {
+        height: 100%;
+    }
+
+    #quote .container{
+        padding-top: 20px;
+    }
+
+    #quote_block .atribution {
+        float: none;
     }
 
     #cta p{
         text-align: left;
         padding: 0;
+    }
+
+    #cta .left_col {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #cta .right_col{
+        width: 100%;
     }
 
     #footer{
