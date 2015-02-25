@@ -139,7 +139,7 @@ textarea {
 }
 
 .dkblue {
-    color: #00a5c1;
+    color: #209eb3;
 }
 
 .gray {
@@ -159,7 +159,7 @@ textarea {
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -223,7 +223,7 @@ textarea {
 .right_col {
     width: 48%;
     display: inline-block;
-    margin: 20px 0 70px 0;
+    margin: 20px 0 40px 0;
 }
 
 .left_col {
@@ -237,14 +237,14 @@ textarea {
 #hero {
     background: url('../img/herobkgrd2.jpg') no-repeat center top;
     max-width: 100%;
-    height: 570px;
+    height: 550px;
     display: block;
 }
 
 #hero h1{
     color:#ffffff;
     font-family: 'Oswald', sans-serif;
-    font-size: 80px;
+    font-size: 65px;
     text-align: center;
     font-weight: normal;
     margin: 0;
@@ -252,7 +252,7 @@ textarea {
 #hero h2{
     color:#ffffff;
     font-family: 'Oswald', sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     font-weight: normal;
     margin: 0;
@@ -270,7 +270,7 @@ textarea {
 #hero p{
     font-family: 'Oswald', sans-serif;
     color: #58595b;
-    font-size: 24px;
+    font-size: 33px;
     text-align: center;
     margin: 10px 0 0 0;
 }
@@ -291,12 +291,12 @@ textarea {
 #hero .left_col{
     float: left;
     width: 45%;
-    padding-top: 20px;
+    padding-top: 35px;
 }
 
 
 #no_setup{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #hero img{
@@ -328,6 +328,7 @@ textarea {
     width: 75%;
     margin: 0 auto;
     padding: 19px 0 0 30px;
+    font-size: 16px;
 }
 
 #quote_block .atribution {
@@ -351,7 +352,7 @@ textarea {
     width: 50%;
     text-align: left;
     margin: 0;
-    padding: 90px 0;
+    padding: 110px 0;
 }
 
 #cta .container .left_col{
@@ -474,7 +475,7 @@ li {
 */
 
 #signup {
-    width: 80%;
+    width: 360px;
     background: #ebebec;
     border: 10px solid #ffffff;
     margin-top: -125px;
@@ -845,6 +846,14 @@ input.phone{
     #contact_strip{
         float: none;
         margin:0 auto;
+    }
+
+    #hero h1{
+        font-size: 55px;
+    }
+
+    #hero h2{
+        font-size: 45px;
     }
 }
 
