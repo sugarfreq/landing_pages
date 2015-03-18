@@ -1,0 +1,923 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: arial;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Icon fonts */
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?-jtnpyn');
+    src:url('../fonts/icomoon.eot?#iefix-jtnpyn') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?-jtnpyn') format('woff'),
+        url('../fonts/icomoon.ttf?-jtnpyn') format('truetype'),
+        url('../fonts/icomoon.svg?-jtnpyn#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 1.6em;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+    content: "\e600";
+}
+
+/* global styles */
+
+.yellow {
+    color: #fbcd49 !important;
+}
+
+.blue {
+    color: #00bbda !important;
+}
+
+.dkblue {
+    color: #209eb3;
+}
+
+.gray {
+    color: #808588;
+}
+
+.shadow {
+    text-shadow: 1px 1px 1px #404040;
+}
+
+.glow{
+    text-shadow: 0 0 2px #4687c7;
+}
+
+.caps {
+    text-transform: uppercase !important;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.rtjust{
+    text-align: right;
+}
+
+.lfjust{
+    text-align: left;
+}
+
+.ctjust{
+    text-align: center;
+}
+
+.ltweight{
+    font-weight: lighter;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.third{
+    width: 25%;
+}
+
+/* Header Styles */
+
+#header{
+    max-width: 100%;
+    height: 85px;
+    background: #ffffff;
+    position: relative;
+
+}
+
+#header img{ 
+    float: left;
+    margin: 10px 20px;
+}
+
+#header p{
+    color: #58595b;
+    text-align: right;
+    margin: 0;
+    line-height: 3em;
+    padding: 22px 44px 0 0;
+}
+
+#contact_strip{
+    height: 45px;
+    width: 65%;
+    float: right;
+}
+
+.right_col {
+    width: 48%;
+    display: inline-block;
+    margin: 20px 0 40px 0;
+}
+
+.left_col {
+    width: 48%;
+    display: inline-block;
+}
+
+
+/* Hero Styles */
+
+#hero {
+    background: url('../img/herobkgrd.jpg') no-repeat center top;
+    max-width: 100%;
+    height: 424px;
+    display: block;
+}
+
+#hero h1{
+    color:#ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+#hero h2{
+    color:#ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+
+#hero h3{
+    font-family: 'Oswald', sans-serif;
+    color: #58595b;
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+}
+
+
+
+#hero .right_col{
+    margin: 0;
+    width: 55%;
+    padding-top: 15px;
+}
+
+#hero .left_col{
+    float: left;
+    width: 45%;
+    padding-top: 45px;
+}
+
+
+#hero img{
+    display: inline-block;
+    max-width: 100%;
+}
+
+#hero .container{
+    width: 90%;
+}
+
+
+/* Content Styles */
+
+
+#quote {
+    color: #58595b;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#quote p.dots{
+    color: #beccd5;
+    margin: 0;
+    font-size: 1.1em;
+    font-family: arial;
+}
+
+#quote .left_col{
+    padding-right: 30px;
+}
+
+#no_setup{
+    margin-top: 30px;
+}
+
+#no_setup p{
+    font-family: 'Oswald', sans-serif;
+    color: #58595b;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+#cta {
+    background-color: #efefef;
+}
+
+
+#cta .right_col{
+    width: 50%;
+    text-align: left;
+    margin: 0;
+    padding: 110px 0;
+}
+
+#cta .container .left_col{
+    float: left;
+    padding-top: 67px;
+}
+
+#cta h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 29px;
+    color: #f7a928;
+    text-align: center;
+    margin: 0;
+}
+
+#cta p{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #58595b;
+}
+
+#cta img{
+    max-width: 100%;
+}
+
+.services {
+    width: 11%;
+    padding: 0 15px;
+    font-size: 0.7em;
+    display: inline-block;
+    text-align: center;
+}
+
+#content .services p {
+    padding: 0;
+    line-height: 1em;
+}
+
+p#phone {
+    font-size: 2.6em;
+    line-height: 0em;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+}
+
+p#price{
+    font-size: 1.7em;
+}
+
+
+ul {
+    color: #929292;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+li {
+    line-height: 1.7em;
+    float: left;
+}
+
+#double li {
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* Footer Styles */
+
+#footer {
+    background-color: #58595b;
+    color: #ffffff;
+    height: 150px;
+
+}
+
+#footer .container {
+    padding: 20px 0 0 0;
+}
+
+#footer p{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 0;
+    line-height: 1em;
+    padding: 10px 0 0 0;
+    color: #ffffff;
+}
+
+
+#footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+}
+
+#footer .borders {
+    width: 500px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    border-left: 1px solid #F38C29;
+    border-right: 1px solid #F38C29;
+}
+
+
+/*
+--------------
+    Form
+--------------
+*/
+
+#signup {
+    width: 360px;
+    background: #ebebec;
+    border: 10px solid #ffffff;
+    margin-left: 60px;
+    margin-top: -35px;
+}
+
+#signup .box {
+     background-color: #f2f2f2;
+     border-radius: 10px;
+     margin: 200px auto 20px auto;
+     padding:0 0 20px 0;
+     width:500px;
+     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+}
+
+#signup .red{
+    text-align: center;
+    padding: 30px 0 15px 0;
+}
+
+.form{
+    margin: 5px 20px;
+    padding-bottom: 10px;
+}
+
+#signup input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #c7cad3;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 12px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    width: 60%;
+}
+
+#signup select {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#signup .submit {
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+input.phone{
+    color:#000;
+    font-size:12px;
+    font-weight:100;
+}
+
+#signup p{
+    color:#ffffff;
+    font-size:14px;
+    line-height:16px;
+    margin: 10px 0 20px 0;
+    text-align: left;
+    margin: 5px 20px 0 20px;
+    font-family: Helvetica;
+}
+
+#signup label{
+    color:#5e5e5e;
+    font-size:14px;
+    line-height:18px;
+    width: 70px;
+    display: inline-block;
+    font-family: Helvetica;
+}
+
+#signup a{
+    color:#ef694c;
+}
+
+#signup h1, #signup h2 { margin-bottom: 25px; }
+
+#signup h1 { 
+    color: #667984;
+    font-family: 'Oswald';
+    font-size: 1.8em; 
+    font-weight: normal; 
+    text-align: center;
+    margin: 0 20px 10px 20px;
+
+}
+
+#signup .sub {
+    clear: both;
+    color: #636363;
+    font-size: 9px;
+    line-height: 120%;
+    text-align: left;
+    margin: 20px 10px 10px 10px;
+    font-family: Helvetica;
+}
+
+.designs{
+    background: #00bad9;
+    width: 180px;
+    height: 37px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 30px 0 0 0;
+    font-family: 'oswald';
+    font-weight: lighter;
+    font-size: 20px;
+    display: block;
+}
+
+.designs:hover{
+    background-color: #f5982a;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    /* Style adjustments for viewports that meet the condition */
+    
+    .container{
+        width: 90%;
+    }
+
+    #label {
+        width: 45%;
+        padding: 30px 0 0 0;
+    }
+
+    #hero {
+        height: 530px;
+    }
+
+    #hero h1{
+        font-size: 2.9em;
+    }
+
+    #hero p.dots {
+        font-size: 0.9em;
+    }
+
+    
+    #signup {
+        width: 300px;
+    }
+
+    #signup h1{
+        font-size: 2.1em;
+    }
+
+    #quote .left_col{
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+    #header p {
+        margin: 0 auto;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    #header img{
+        float: none;
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+
+    #header {
+        height: 100%;
+    }
+
+    #hero{
+        height: 100%;
+        background: url('../img/herobkgrd.jpg') no-repeat left 31% top;
+    }
+
+    #hero .left_col {
+        width: 100%;
+        float: none;
+        height: 420px;
+    }
+
+    #hero .right_col {
+        width: 100%;
+        float: none;
+    }
+
+    #label {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    #signup {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .right_col{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .left_col{
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+   }
+
+    #hero .container{
+        width: 100%;
+    }
+
+    #hero h1{
+        margin: 10px 0;
+    }
+
+    #quote {
+        height: 100%;
+    }
+
+    #quote .container{
+        padding-top: 20px;
+    }
+
+    #quote_block .atribution {
+        float: none;
+    }
+
+    #cta p{
+        text-align: left;
+        padding: 0;
+    }
+
+    #cta .left_col {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #cta .right_col{
+        width: 100%;
+    }
+
+    #footer{
+        width: 100%;
+        height: 100%;
+    }
+
+    #footer .borders{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    #contact_strip{
+        float: none;
+        margin:0 auto;
+    }
+
+    #hero h1{
+        font-size: 55px;
+    }
+
+    #hero h2{
+        font-size: 45px;
+    }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
