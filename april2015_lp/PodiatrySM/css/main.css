@@ -235,24 +235,24 @@ textarea {
 /* Hero Styles */
 
 #hero {
-    background: url('../img/herobkgrd2.jpg') no-repeat center top;
+    background: url('../img/herobkgrd.jpg') no-repeat center top;
     max-width: 100%;
-    height: 550px;
+    height: 424px;
     display: block;
 }
 
 #hero h1{
     color:#ffffff;
     font-family: 'Oswald', sans-serif;
-    font-size: 65px;
+    font-size: 62px;
     text-align: center;
     font-weight: normal;
     margin: 0;
 }
 #hero h2{
-    color:#ffffff;
+    color:#58595b;
     font-family: 'Oswald', sans-serif;
-    font-size: 55px;
+    font-size: 40px;
     text-align: center;
     font-weight: normal;
     margin: 0;
@@ -267,20 +267,7 @@ textarea {
     font-weight: normal;
 }
 
-#hero p{
-    font-family: 'Oswald', sans-serif;
-    color: #58595b;
-    font-size: 33px;
-    text-align: center;
-    margin: 10px 0 0 0;
-}
 
-#hero p.dots{
-    color: #beccd5;
-    margin: 0;
-    font-size: 1.1em;
-    font-family: arial;
-}
 
 #hero .right_col{
     margin: 0;
@@ -291,13 +278,8 @@ textarea {
 #hero .left_col{
     float: left;
     width: 45%;
-    padding-top: 35px;
 }
 
-
-#no_setup{
-    margin-top: 30px;
-}
 
 #hero img{
     display: inline-block;
@@ -313,51 +295,53 @@ textarea {
 
 
 #quote {
-    background-color: #747577;
-    color: #fff;
+    color: #58595b;
     font-size: 14px;
     line-height: 24px;
 }
 
-#quote .right_col{
-    margin-top: 40px;
+#quote p.dots{
+    color: #beccd5;
+    margin: 0;
+    font-size: 1.1em;
+    font-family: arial;
 }
 
-#quote_block{
-    background: url("../img/quotemark.jpg") top left no-repeat;
-    width: 75%;
-    margin: 0 auto;
-    padding: 19px 0 0 30px;
+#quote h1{
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    line-height: 38px;
+}
+
+#quote .fine-print{
+    font-size: 12px;
+}
+
+#quote .left_col{
+    padding-right: 30px;
+    float: left;
+}
+
+#quote p{
     font-size: 16px;
 }
 
-#quote_block .atribution {
-    float: right;
-    font-size: 18px;
+#no_setup{
+    margin-top: 30px;
 }
 
-#quote_block .atribution a{
-    color: #00bad9;
-    text-decoration: none;
-    font-size: 14px;
+#no_setup p{
+    font-family: 'Oswald', sans-serif;
+    color: #58595b;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0 0 0;
 }
 
-
-#cta {
-    background-color: #efefef;
-}
-
-
-#cta .right_col{
-    width: 50%;
-    text-align: left;
-    margin: 0;
-    padding: 110px 0;
-}
-
-#cta .container .left_col{
-    float: left;
-    padding-top: 67px;
+#cta{
+    padding-bottom: 70px;
 }
 
 #cta h1{
@@ -377,6 +361,8 @@ textarea {
 
 #cta img{
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .services {
@@ -478,7 +464,8 @@ li {
     width: 360px;
     background: #ebebec;
     border: 10px solid #ffffff;
-    margin-top: -125px;
+    margin-left: 60px;
+    margin-top: -35px;
 }
 
 #signup .box {
@@ -733,6 +720,10 @@ input.phone{
         font-size: 2.1em;
     }
 
+    #quote .left_col{
+        padding-right: 20px;
+    }
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 800px) {
@@ -755,7 +746,7 @@ input.phone{
 
     #hero{
         height: 100%;
-        background: url('../img/herobkgrd2.jpg') no-repeat left 31% top;
+        background: url('../img/herobkgrd.jpg') no-repeat left 31% top;
     }
 
     #hero .left_col {

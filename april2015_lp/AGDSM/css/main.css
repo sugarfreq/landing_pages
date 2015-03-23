@@ -237,24 +237,22 @@ textarea {
 #hero {
     background: url('../img/herobkgrd.jpg') no-repeat center top;
     max-width: 100%;
-    height: 424px;
+    height: 371px;
     display: block;
 }
 
 #hero h1{
     color:#ffffff;
     font-family: 'Oswald', sans-serif;
-    font-size: 48px;
+    font-size: 68px;
     text-align: center;
     font-weight: normal;
     margin: 0;
 }
 #hero h2{
-    color:#ffffff;
     font-family: 'Oswald', sans-serif;
-    font-size: 48px;
+    font-size: 90px;
     text-align: center;
-    font-weight: normal;
     margin: 0;
 }
 
@@ -267,8 +265,6 @@ textarea {
     font-weight: normal;
 }
 
-
-
 #hero .right_col{
     margin: 0;
     width: 55%;
@@ -278,7 +274,6 @@ textarea {
 #hero .left_col{
     float: left;
     width: 45%;
-    padding-top: 45px;
 }
 
 
@@ -310,6 +305,23 @@ textarea {
 
 #quote .left_col{
     padding-right: 30px;
+    float: left;
+}
+
+#quote h1{
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    line-height: 38px;
+}
+
+#quote p{
+    font-size: 16px;
+}
+
+#quote .fine-print{
+    font-size: 12px;
 }
 
 #no_setup{
@@ -338,14 +350,13 @@ textarea {
 
 #cta .container .left_col{
     float: left;
-    padding-top: 67px;
+    padding-top: 47px;
 }
 
 #cta h1{
     font-family: 'Oswald', sans-serif;
     font-size: 29px;
     color: #f7a928;
-    text-align: center;
     margin: 0;
 }
 
@@ -358,6 +369,8 @@ textarea {
 
 #cta img{
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .services {
