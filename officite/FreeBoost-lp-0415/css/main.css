@@ -293,6 +293,24 @@ textarea {
     height: 25px;
 }
 
+#overlay #form select{
+    background-color: #dde7ee;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 5px 0;
+    height: 25px;
+}
+
+#overlay #form select#state{
+    width: 44px;
+    margin-right: 14px;
+}
+
+#overlay #form select#market{
+    width: 122px;
+}
+
 #overlay #form .submit {
     border: none;
     color: #fff;
