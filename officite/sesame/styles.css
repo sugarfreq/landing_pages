@@ -1,0 +1,388 @@
+/* Eric Meyer's Reset Reloaded */
+/* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+	border-collapse: collapse;border-spacing: 0;
+}
+
+
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('fonts/MuseoSans_500-webfont.eot');
+    src: url('fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSans_500-webfont.woff') format('woff'),
+         url('fonts/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('fonts/MuseoSans_500-webfont.svg#MuseoSans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSerif-Regular';
+    src: url('fonts/DroidSerif-Regular-webfont.eot');
+    src: url('fonts/DroidSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSerif-Regular-webfont.woff') format('woff'),
+         url('fonts/DroidSerif-Regular-webfont.ttf') format('truetype'),
+         url('fonts/DroidSerif-Regular-webfont.svg#DroidSerif-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSerif-Bold';
+    src: url('fonts/DroidSerif-Bold-webfont.eot');
+    src: url('fonts/DroidSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DroidSerif-Bold-webfont.woff') format('woff'),
+         url('fonts/DroidSerif-Bold-webfont.ttf') format('truetype'),
+         url('fonts/DroidSerif-Bold-webfont.svg#DroidSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'MuseoSans';
+	/*background: url('images/bgRPT.jpg') repeat-x 0px 90px;*/
+}
+
+h1{
+	color: #0075bf;
+	font-family: 'DroidSerif-Regular';
+	font-size: 35px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+.bkgrd2{
+	background-color: #F7F7F7;
+}
+
+.left {
+	position: relative;
+	display: table-cell;
+}
+
+.right {
+	position: relative;
+	display: table-cell;
+}
+
+/*Header*/
+#header { 
+	height: 90px; 
+	position: relative;
+	padding: 5px 0 10px 0;
+	width: 1020px;
+	margin: auto;
+}
+
+#header .phone { 
+	color: #0075bf; 
+	font-size: 30px; 
+	font-weight: bold; 
+	background: url('images/phone.png') no-repeat 0px 3px; 
+	position: absolute; 
+	padding: 0 0 0 40px; 
+	top: 30px; 
+	right: 0; 
+}
+
+#header .logo { 
+	margin: 15px 0 10px 0;
+}
+
+/* === Clear Fix === */
+.cf:before,.cf:after {
+content:" ";
+/* 1 */
+display:table;
+/* 2 */
+}
+
+.cf:after {
+clear:both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+zoom:1;
+}
+/* === end Clear Fix === */
+
+/*Hero*/
+#hero{
+	background-image: url('images/Header2.jpg');
+}
+.container {
+	width: 96%;
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#hero .left {
+	width: 60%;
+	vertical-align: middle;
+}
+
+#hero .right {
+	width: 35%;
+	vertical-align: middle;
+}
+
+#hero h2 { 
+	font-family: 'DroidSerif-Regular'; 
+	color: #FFFFFF; 
+	font-size: 48.5px;
+	line-height: 55px; 
+	font-weight: normal;
+	padding: 25px 0 50px 0; 
+}
+
+/*Content Center*/
+.cont_center{
+	color: #939b9f;
+	font-family: 'Museo Sans', Myriad Pro, Helvetica Neue, Helvetica, Arial, sans-serif;; 
+	font-size: 20px;
+	line-height: 30px;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.cont_center.bkgrd2 p{
+	margin-top: 30px;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*Content Image Left*/
+.cont_img_left{
+	color: #939b9f;
+	font-family: 'Museo Sans', Myriad Pro, Helvetica Neue, Helvetica, Arial, sans-serif;; 
+	font-size: 20px;
+	line-height: 30px;
+	padding: 50px 0;
+	background-color: #F7F7F7;
+}
+
+.cont_img_left .left {
+	width: 30%;
+	vertical-align: middle;
+}
+
+.cont_img_left .right {
+	margin-left: 70px;
+	vertical-align: middle;
+	width: 60%
+}
+
+
+/*Content Image Right*/
+.cont_img_right{
+	color: #939b9f;
+	font-family: 'Museo Sans', Myriad Pro, Helvetica Neue, Helvetica, Arial, sans-serif;; 
+	font-size: 20px;
+	line-height: 30px;
+	padding: 50px 0;
+}
+
+.cont_img_right .left {
+	width: 60%;
+	vertical-align: middle;
+	padding-right: 70px;
+}
+
+.cont_img_right .right {
+	width: 30%;
+	vertical-align: middle;
+}
+
+
+
+
+/*Footer*/
+#footer {
+	background: url('images/footerBG.jpg') repeat-x;
+	height: 200px;
+	margin-top: 20px;
+}
+
+#footerContent {
+	width: 1020px;
+	margin: auto;
+}
+
+#footer-links {
+clear: both;
+font-size: 12px;
+color: #898989;
+}
+
+#social {
+	height: 66px;
+	margin-top: 50px;
+	float: left;
+}
+
+#social p {
+	font-family: 'DroidSerif-Bold';
+	color: #FFF;
+	font-size: 27px;
+	float: left;
+	line-height: 40px;
+}
+
+#social ul {
+	margin: 0px 0 0 220px;
+
+}
+
+#social li {
+	display: inline;
+}
+
+#social a {
+	display: inline-block;
+}
+
+#social a.facebook {
+	background: url('images/facebook.png') no-repeat;
+	height: 34px;
+	width: 34px;
+}
+
+#social a.twitter {
+	background: url('images/twitter.png') no-repeat;
+	height: 34px;
+	width: 34px;
+}
+
+#social a.linkedin {
+	background: url('images/linkedin.png') no-repeat;
+	height: 34px;
+	width: 34px;
+}
+
+#social a.blog{
+	background: url('images/blog.png') no-repeat;
+	height: 34px;
+	width: 34px;
+}
+
+
+.social-tagline { 
+	color: #00446a; 
+	text-transform: uppercase; 
+	margin-bottom: 10px 0; 
+	display: block; 
+}
+
+
+#footer-logo{
+	float:right;
+	width:166px;
+	height:48px;
+	margin-top:-7px;
+	background:url(images/logo_small.jpg) no-repeat;
+}
+
+/*media queries*/
+@media screen and (max-width: 920px) {
+	h1{
+		margin: 20px 0;
+	}
+
+	.cont_img_left .left{
+		display: table-header-group;
+		text-align: center;
+		width: 100%;
+	}
+
+	.cont_img_left .right{
+		width: 100%;
+		margin-left: 0;
+		padding: 0 5%;
+	}
+
+	.cont_img_right .left{
+		width: 100%;
+		padding: 0 5%;
+	}
+
+	.cont_img_right .right{
+		display: table-header-group;
+		text-align: center;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	#hero .right {
+		display: table-header-group;
+		text-align: center;
+	}
+
+	#hero .right img{
+		max-width: 50%;
+		padding-top: 20px;
+	}
+
+	#hero .left{
+		display: table-cell;
+		text-align: center;
+	}
+
+	#hero h2{
+		font-size: 24px;
+		line-height: normal;
+	}
+}
