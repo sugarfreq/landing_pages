@@ -1,0 +1,98 @@
+/*
+---------------------
+    Main Content
+---------------------
+*/
+
+#main.container{
+    background-color: #fff;
+    padding: 1px 0;
+    top: -60px;
+}
+
+#promotion{
+    background-color: #D8D8D8;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+#promotion h1{
+    font-family: 'Oswald', sans-serif;
+    color: #00bad9;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 5px 0;
+    margin: 0;
+}
+
+#promotion div{
+    background: url('../img/dot.png') repeat-x center;
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    height: 5px;
+    padding-top: 20px;
+}
+
+#promotion h1 div{
+    background: url('../img/dot.png') repeat-x center;
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    height: 5px;
+    padding-bottom: 20px;
+}
+
+#services {
+    background-color: #EBEBEB;
+    margin: -9px 10px 10px 10px;
+}
+
+.title{
+    background-color: #00bad9;
+}
+
+#services h1{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#icons {
+    width: 96%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#icons div{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+
+#icons:after{
+    content: '';
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icon img, .icon p{
+    display: block;
+}
+
+.icon img{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.icon p{
+    color: #585858;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}

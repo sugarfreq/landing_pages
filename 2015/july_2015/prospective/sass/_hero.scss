@@ -1,0 +1,42 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+#hero {
+    background: url('../img/herobkgrd.png') no-repeat center -70px;
+    max-width: 100%;
+    display: block;
+    height: 443px;
+}
+
+#hero h1{
+    color:#ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 3.2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#hero_images {
+    width: 80%;
+    padding-top: 30px;
+    text-align: justify;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#hero_images img{
+    display: inline-block;
+    max-width: 50%;
+}
+
+#hero_images:after{
+    content: '';
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}

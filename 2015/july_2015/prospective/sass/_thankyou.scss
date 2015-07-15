@@ -1,0 +1,60 @@
+/*
+------------------
+    Thank You
+------------------
+*/
+
+#thankyou {
+	background: url('../img/ty-bkgrd.png'), #f28329; /* Old browsers */
+	background: url('../img/ty-bkgrd.png'), -moz-linear-gradient(top, #f28329 0%, #f7a928 100%); /* FF3.6+ */
+	background: url('../img/ty-bkgrd.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f28329), color-stop(100%,#f7a928)); /* Chrome,Safari4+ */
+	background: url('../img/ty-bkgrd.png'), -webkit-linear-gradient(top, #f28329 0%,#f7a928 100%); /* Chrome10+,Safari5.1+ */
+	background: url('../img/ty-bkgrd.png'), -o-linear-gradient(top, #f28329 0%,#f7a928 100%); /* Opera 11.10+ */
+	background: url('../img/ty-bkgrd.png'), -ms-linear-gradient(top, #f28329 0%,#f7a928 100%); /* IE10+ */
+	background: url('../img/ty-bkgrd.png'), linear-gradient(to bottom, #f28329 0%,#f7a928 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28329', endColorstr='#f7a928',GradientType=0 ); /* IE6-9 */
+	height: 100%;
+	width: 100%;
+	padding-top: 10%;
+}
+
+html, body{
+	height: 100%;
+}
+
+#thankyou .container{
+	background-color: #fff;
+	width: 70%;
+	color: #646464;
+	font-size: 16px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10px 30px 30px 30px;
+}
+
+#thankyou .container h1{
+	font-size: 40px;
+}
+
+#thankyou .container #button{
+    background: #f4992a;
+    width: 180px;
+    height: 37px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 0 auto;
+    font-family: 'oswald';
+    font-weight: lighter;
+    font-size: 20px;
+    display: block;
+    box-shadow: 4px 4px 0 #646464;
+    padding: 10px 10px 0 10px;
+}
+
+#thankyou .container a{
+	color: #fff;
+}
+
+#thankyou #button:hover{
+    background: #00cef0;
+}

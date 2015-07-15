@@ -1,0 +1,88 @@
+/*
+---------------
+    Global
+---------------
+*/
+
+.yellow {
+    color: #fbcd49 !important;
+}
+
+.blue {
+    color: #00cef0 !important;
+}
+
+.gray {
+    color: #808588;
+}
+
+.orange{
+    color: #f68904;
+}
+
+.lobster {
+    font-family: 'Lobster';
+}
+
+.shadow {
+    text-shadow: 3px 3px 5px #404040;
+}
+
+.glow{
+    text-shadow: 0 0 2px #4687c7;
+}
+
+.caps {
+    text-transform: uppercase !important;
+}
+
+.container {
+    width: 96%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.rtjust{
+    text-align: right;
+}
+
+.lfjust{
+    text-align: left;
+}
+
+.ctjust{
+    text-align: center;
+}
+
+.ltweight{
+    font-weight: 300;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.third{
+    width: 25%;
+}
+
+.right_col {
+    width: 40%;
+    display: inline-block;
+    margin: 0 20px 0 15px;
+}
+
+.left_col {
+    width: 52%;
+    display: inline-block;
+    margin: 0 15px 0 20px;
+}
+
+.clear {
+    clear: both;
+}

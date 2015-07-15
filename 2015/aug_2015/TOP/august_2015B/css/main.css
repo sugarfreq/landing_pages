@@ -1,3 +1,8 @@
+/*
+---------------------
+    Variables
+---------------------
+*/
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -21,22 +26,7 @@ html {
   background-color: #fff; }
 
 body {
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #888888 0%, #ffffff 55%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #888888), color-stop(55%, #ffffff));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #888888 0%, #ffffff 55%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #888888 0%, #ffffff 55%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #888888 0%, #ffffff 55%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #888888 0%, #ffffff 55%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#ffffff',GradientType=0 );
-  /* IE6-9 */ }
+  background: #ffffff; }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -134,7 +124,7 @@ textarea {
   color: #fbcd49 !important; }
 
 .blue {
-  color: #00cef0 !important; }
+  color: #f7a32a !important; }
 
 .gray {
   color: #808588; }
@@ -146,7 +136,7 @@ textarea {
   font-family: 'Lobster'; }
 
 .shadow {
-  text-shadow: 3px 3px 5px #404040; }
+  text-shadow: 3px 3px 5px #3b3b3b; }
 
 .glow {
   text-shadow: 0 0 2px #4687c7; }
@@ -229,100 +219,102 @@ textarea {
 -------------
 */
 #hero {
-  background: url("../img/herobkgrd.png") no-repeat center -70px;
-  max-width: 100%;
-  display: block;
-  height: 443px; }
+  background-color: #cacbcd;
+  height: 600px; }
+
+#hero_image {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2d3d5+0,f5f4f5+100 */
+  background: #305685;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #305685 0%, #5185c5 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #305685), color-stop(100%, #5185c5));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #305685 0%, #5185c5 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #305685 0%, #5185c5 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #305685 0%, #5185c5 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #305685 0%, #5185c5 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$grad-top', endColorstr='$grad-bot',GradientType=0 );
+  /* IE6-9 */
+  border-bottom: 10px solid #fff;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  height: 475px;
+  width: 150%;
+  margin: 0 -25%; }
 
 #hero h1 {
-  color: #ffffff;
-  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
   font-weight: 300;
-  font-size: 3.2em;
-  margin: 0;
-  padding: 0;
-  text-align: center; }
-
-#hero_images {
-  width: 80%;
-  padding-top: 30px;
-  text-align: justify;
-  height: 250px;
-  margin: 0 auto; }
-
-#hero_images img {
+  font-size: 55px;
   display: inline-block;
-  max-width: 50%; }
+  vertical-align: middle; }
 
-#hero_images:after {
-  content: '';
-  width: 100%;
+#hero img {
   display: inline-block;
-  vertical-align: top; }
+  max-width: 40%;
+  padding: 50px 0 0 50px; }
 
 /*
 ---------------------
     Main Content
 ---------------------
 */
-#main.container {
-  background-color: #fff;
-  padding: 1px 0;
-  top: -60px; }
+#about {
+  padding: 50px 0; }
 
-#promotion {
-  background-color: #D8D8D8;
-  margin: 10px;
+#about h1 {
+  color: #f7a32a;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
   text-align: center;
-  color: #fff; }
+  font-weight: 400; }
 
-#promotion h1 {
-  font-family: 'Oswald', sans-serif;
-  color: #00bad9;
-  font-size: 36px;
-  font-weight: 300;
-  padding: 5px 0;
-  margin: 0; }
-
-#promotion div {
-  background: url("../img/dot.png") repeat-x center;
+#about p {
+  color: #4e4f4f;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  width: 700px;
   display: block;
-  margin: 0 auto;
-  width: 65%;
-  height: 5px;
-  padding-top: 20px; }
-
-#promotion h1 div {
-  background: url("../img/dot.png") repeat-x center;
-  display: block;
-  margin: 0 auto;
-  width: 65%;
-  height: 5px;
-  padding-bottom: 20px; }
+  margin: 0 auto; }
 
 #services {
-  background-color: #EBEBEB;
-  margin: -9px 10px 10px 10px; }
-
-.title {
-  background-color: #00bad9; }
+  background-color: #5084c4;
+  padding: 40px 0; }
 
 #services h1 {
-  color: #fff;
-  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
   font-weight: 300;
-  text-align: center;
-  padding: 5px 0; }
+  text-align: center; }
+
+#services h3 {
+  color: #f8a52b;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px #3b3b3b; }
+
+#services p {
+  color: #d7d8d9;
+  font-size: 14px;
+  line-height: 24px; }
 
 #icons {
-  width: 96%;
   margin: 0 auto;
   text-align: justify; }
 
-#icons div {
+#icons .icon {
   display: inline-block;
-  width: 10%;
-  vertical-align: top; }
+  width: 30%;
+  vertical-align: top;
+  text-align: center;
+  margin: 30px 10px;
+  position: relative; }
 
 #icons:after {
   content: '';
@@ -330,29 +322,40 @@ textarea {
   display: inline-block;
   vertical-align: top; }
 
-.icon img, .icon p {
-  display: block; }
-
-.icon img {
+.icon_img {
+  display: block;
   margin: 0 auto;
-  max-width: 100%; }
+  width: 300px;
+  height: 300px; }
 
-.icon p {
-  color: #585858;
-  font-size: 0.7em;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 0; }
+.icon_img img {
+  position: absolute;
+  top: 25%;
+  right: 25%; }
 
+/* 
+
+.hide{
+	display: block;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0px;
+	width: 250px;
+	height: 250px;
+	padding: 25px;
+}
+
+*/
 /*
 --------------
     Form
 --------------
 */
 #signup {
-  background: #f4992a;
-  margin: 10px;
-  padding-top: 20px; }
+  background: #fff;
+  margin: -125px 10px 10px 10px;
+  padding-top: 20px;
+  border: 10px solid #f9b73a; }
 
 #signup .box {
   background-color: #f2f2f2;
@@ -395,7 +398,7 @@ textarea {
 
 #signup .submit {
   border: medium none;
-  color: #00bbda;
+  color: #ffffff;
   cursor: pointer;
   margin: 0 auto; }
 
@@ -416,7 +419,7 @@ input.phone {
   font-family: Helvetica; }
 
 #signup label {
-  color: #fff;
+  color: #4e4f4f;
   font-size: 14px;
   line-height: 18px;
   width: 70px;
@@ -446,7 +449,7 @@ input.phone {
   font-family: Helvetica; }
 
 .designs {
-  background: #ebebec;
+  background: #f7a32a;
   width: 180px;
   height: 37px;
   text-align: center;
@@ -456,139 +459,40 @@ input.phone {
   font-weight: lighter;
   font-size: 20px;
   display: block;
-  box-shadow: 4px 4px 0 #ec6b10; }
+  box-shadow: 4px 4px 0 #4c371e; }
 
 .designs:hover {
   background-color: #00bbda; }
 
 /*
---------------
-    Packages
---------------
+---------------------
+      Footer
+---------------------
 */
-#pricing {
-  color: #646464; }
+#footer {
+  background-color: #2e5483;
+  padding: 40px 0; }
 
-#pricing {
-  padding: 0 10px 0 10px;
-  margin: 0 auto;
-  text-align: justify; }
-
-#pricing div {
+#footer img {
   display: inline-block;
-  width: 22%;
-  vertical-align: top; }
+  vertical-align: middle; }
 
-#pricing:after {
-  content: '';
-  width: 100%;
+#footer .container div {
   display: inline-block;
-  vertical-align: top; }
+  vertical-align: middle;
+  float: right; }
 
-.package h1 {
-  font-family: 'Oswald', sans-serif;
-  margin: 20px 0 0 0;
-  font-weight: 400; }
-
-.package {
-  display: inline-block;
-  height: 505px;
-  vertical-align: top;
-  padding: 0 10px;
-  font-size: 14px;
-  text-align: left; }
-
-.package p, .package ul {
+#footer .container h2 {
+  color: #f7a32a;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
+  font-weight: 400;
   margin: 0; }
 
-.package .orange {
-  font-size: 0.8em; }
+#footer .container p {
+  margin: 0; }
 
-.package .price {
-  font-size: 16px; }
-
-.package .bold {
-  margin: 20px 0 0 0; }
-
-#basic.package {
-  background: url("../img/basic-bkgrd.png") no-repeat top right #ebebec; }
-
-#gold.package {
-  background: url("../img/gold-bkgrd.png") no-repeat top right #ebebec; }
-
-#gold_social.package {
-  background: url("../img/goldsocial-bkgrd.png") no-repeat top right #ebebec; }
-
-#premium.package {
-  background: url("../img/premium-bkgrd.png") no-repeat top right #ebebec; }
-
-.package ul {
-  list-style-type: none;
-  padding: 0 0 0 15px; }
-
-.package ul li {
-  margin: 10px 0 0 0; }
-
-/*
-------------------
-    Thank You
-------------------
-*/
-#thankyou {
-  background: url("../img/ty-bkgrd.png"), #f28329;
-  /* Old browsers */
-  background: url("../img/ty-bkgrd.png"), -moz-linear-gradient(top, #f28329 0%, #f7a928 100%);
-  /* FF3.6+ */
-  background: url("../img/ty-bkgrd.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f28329), color-stop(100%, #f7a928));
-  /* Chrome,Safari4+ */
-  background: url("../img/ty-bkgrd.png"), -webkit-linear-gradient(top, #f28329 0%, #f7a928 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: url("../img/ty-bkgrd.png"), -o-linear-gradient(top, #f28329 0%, #f7a928 100%);
-  /* Opera 11.10+ */
-  background: url("../img/ty-bkgrd.png"), -ms-linear-gradient(top, #f28329 0%, #f7a928 100%);
-  /* IE10+ */
-  background: url("../img/ty-bkgrd.png"), linear-gradient(to bottom, #f28329 0%, #f7a928 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28329', endColorstr='#f7a928',GradientType=0 );
-  /* IE6-9 */
-  height: 100%;
-  width: 100%;
-  padding-top: 10%; }
-
-html, body {
-  height: 100%; }
-
-#thankyou .container {
-  background-color: #fff;
-  width: 70%;
-  color: #646464;
-  font-size: 16px;
-  border-radius: 20px;
-  text-align: center;
-  padding: 10px 30px 30px 30px; }
-
-#thankyou .container h1 {
-  font-size: 40px; }
-
-#thankyou .container #button {
-  background: #f4992a;
-  width: 180px;
-  height: 37px;
-  text-align: center;
-  border-radius: 7px;
-  margin: 0 auto;
-  font-family: 'oswald';
-  font-weight: lighter;
-  font-size: 20px;
-  display: block;
-  box-shadow: 4px 4px 0 #646464;
-  padding: 10px 10px 0 10px; }
-
-#thankyou .container a {
-  color: #fff; }
-
-#thankyou #button:hover {
-  background: #00cef0; }
+#footer .container a {
+  color: #ffffff; }
 
 /* ==========================================================================
    Helper classes

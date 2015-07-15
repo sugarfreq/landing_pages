@@ -1,0 +1,84 @@
+/*
+--------------
+    Packages
+--------------
+*/
+
+#pricing {
+    color: #646464;
+}
+
+#pricing {
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#pricing div{
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+}
+
+#pricing:after{
+    content: '';
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.package h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0 0 0;
+    font-weight: 400;
+}
+
+.package {
+    display: inline-block;
+    height: 505px;
+    vertical-align: top;
+    padding: 0 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.package p, .package ul{
+    margin: 0;
+}
+
+.package .orange{
+    font-size: 0.8em;
+}
+
+.package .price{
+    font-size: 16px;
+}
+
+.package .bold{
+    margin: 20px 0 0 0;
+}
+
+#basic.package{
+    background: url('../img/basic-bkgrd.png') no-repeat top right #ebebec;
+}
+
+#gold.package{
+    background: url('../img/gold-bkgrd.png') no-repeat top right #ebebec;
+}
+
+#gold_social.package{
+    background: url('../img/goldsocial-bkgrd.png') no-repeat top right #ebebec;
+}
+
+#premium.package{
+    background: url('../img/premium-bkgrd.png') no-repeat top right #ebebec;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0 0 0 15px;
+}
+
+.package ul li{
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,111 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #fff;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: arial;
+    background-color: #fff;
+}
+
+body{
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #888888 0%, #ffffff 55%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(55%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #888888 0%,#ffffff 55%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #888888 0%,#ffffff 55%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #888888 0%,#ffffff 55%); /* IE10+ */
+    background: linear-gradient(to bottom, #888888 0%,#ffffff 55%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}

@@ -1,0 +1,122 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media screen and (max-width: 945px){
+    #contact_strip{
+        width: 40%;
+    }
+
+    #hero_images img{
+        max-width: 40%;
+    }
+
+    #hero h1{
+        font-size: 2.4em;
+    }
+
+    #hero{
+        background-position: center -100px;
+    }
+
+    #main.container {
+        top: -80px;
+    }
+
+    #landing{
+        padding-left: 7%;
+    }
+
+    #landing div{
+        width: 30%;
+    }
+ 
+}
+
+@media screen and (max-width: 830px){
+
+    #hero{
+        background-position: center -150px;
+    }
+
+    #hero_images{
+        height: auto;
+    }
+
+    #hero_images img{
+        max-width: 30%;
+    }
+
+    #pricing div{
+        width: 100%;
+    }
+
+    .package h1, .package p, .package ul{
+        padding-left: 15px;
+    }
+
+    .package ul li{
+        padding-left: 25px;
+    }
+
+    .package {
+        height: auto;
+        padding: 0 0 10px 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:700px){
+    #header {
+        height: auto;
+    }
+
+    #header img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #contact_strip{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #header p{
+        padding: 0 0 0 40px;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    #hero h1{
+        font-size: 2.2em;
+    }
+
+    #icons{
+        width: 70%;
+    }
+
+    #icons div{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #landing{
+        padding-left: 0;
+    }
+
+    #landing div{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #signup input[type="text"]{
+        width: 98%;
+    }
+}
