@@ -1,0 +1,148 @@
+/*
+------------------
+    Overlay
+-------------------
+*/
+
+#overlay .container{
+    padding-top: 100px;
+}
+
+#overlay {
+     background: url(../img/background2.png) top right repeat-x;
+     left: 0px;
+     top: 0px;
+     bottom: 0px;
+     right: 0px;
+     position: fixed;
+     text-align:left;
+     z-index: 1000;
+}
+
+#overlay .box {
+     background-color: #FFFFFF;
+     border-radius: 10px;
+     margin-left: 25%;
+     padding:0 0 20px 0;
+     width:50%;
+     max-width: 500px;
+     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+}
+
+#overlay .form_desc{
+    background-color: $grad_end;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px 0 15px 0;
+}
+
+#overlay .form_desc h2{
+    font-size: 21px;
+}
+
+#overlay .form{
+    margin: 20px;
+}
+
+#overlay input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    border: 1px solid #c7cad3;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 12px;
+    height: 15.5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 12.5px;
+    padding: 5px 10px;
+    width: 72%;
+    vertical-align: middle;
+}
+
+#overlay select {
+  width: 72%;
+  color: #000000;
+}
+
+#overlay select#state {
+    margin-left: 3px; 
+    width: 72%;
+}
+
+#overlay .submit {
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+
+#overlay p{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px 0 20px 0;
+    text-align: left;
+    margin: 5px 20px 0 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#overlay label{
+    color: #5e5e5e;
+    font-size: 12px;
+    text-align: right;
+    line-height: 18px;
+    width: 20%;
+    display: inline-block;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#overlay a{
+    color: #ef694c;
+}
+
+#overlay h1, #overlay h2 { 
+    margin-bottom: 25px; 
+}
+
+#overlay h2 { 
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    font-size: 25px; 
+    font-weight: normal; 
+    text-align: left;
+    margin: 0 20px;
+}
+
+#overlay .sub {
+    clear: both;
+    color: #5e5e5e;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: left;
+    margin: 10px;
+    margin-top: 15px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.submit{
+    background-color: #fdb830;
+    width: 70%;
+    height: 34px;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+    display: block;
+}
+
+.submit:hover{
+    background-color: #a9c5d5;
+}

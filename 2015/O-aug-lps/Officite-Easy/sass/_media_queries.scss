@@ -1,0 +1,93 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media screen and (max-width: 1024px){
+	#hero img {
+		max-width: 100%;
+	}
+	#steps > img{
+		display: none;
+	}
+
+	#steps .step{
+		width: 30%;
+	}
+
+	#wrapper > img {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 850px){
+	#hero a{
+		bottom: 80px;
+	}
+
+	#steps .step:hover{
+		background-color: $yellow;
+	}
+
+	#steps span:hover{
+	font-size: 70px;
+}
+
+}
+
+@media screen and (max-width:776px){
+	#hero {
+		text-align: center;
+	}
+
+	#hero h1{
+		padding-top: 50px;
+	}
+
+	#hero a{
+		position: static;
+		margin-bottom: 50px;
+	}
+
+	#hero p{
+		padding-top: 0;
+		padding-bottom: 20px;
+		width: 90%;
+	}
+
+	#beyond h1{
+		font-size: 1.7em;
+	}
+
+	#beyond h2{
+		font-size: 1.2em;
+	}
+
+	#beyond p{
+		font-size: 0.9em;
+		line-height: 1.6;
+	}
+
+	#beyond .service {
+		width: 90%;
+	}
+
+	#beyond .service img{
+		max-width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#steps {
+		display: none;
+	}
+
+	#beyond{
+		background-color: $yellow;
+	}
+
+	#beyond h1, #beyond h2, #beyond p{
+		color: $grad_top;
+	}
+}
