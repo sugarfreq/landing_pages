@@ -107,9 +107,9 @@
                     Enter your information below to gain access to your free website.
                 </p>
             </div>
-            <form id="landing" action="" method="POST">
+            <form id="landing" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
             <input type=hidden name="oid" value="00D30000001FJBW">
-            <input type=hidden name="retURL" id="retURL" value="">
+            <input type=hidden name="retURL" id="retURL" value="http://go.officite.com/test/dental.html">
             <input id="campaignID" type=hidden name="Campaign_ID" value="701a0000002QmgQ">
             <input type=hidden name="00N30000007fLLu" value="Officite">
             <input type="hidden" id="member_status" name="member_status" value="Responded" />
@@ -219,6 +219,7 @@
                             <option value="Dermatology">Dermatology</option>
                             <option value="Gastroenterology">Gastroenterology</option>
                             <option value="Midwifery">Midwifery</option>
+                            <option value="Obstetrics Gynecology">Obstetrics Gynecology</option>
                             <option value="Ophthalmology">Ophthalmology</option>
                             <option value="Otolaryngology">Otolaryngology</option>
                             <option value="Pediatrics">Pediatrics</option>
@@ -227,7 +228,7 @@
                             <option value="Urology">Urology</option>
                             <option value="Other">Other</option>
                             </select>
-                    <div id="assoc_1" class=".assoc">
+                    <div id="assoc_1" class="assoc">
                             <label for="assoc">Association</label>
                             <select id="assoc1" class="" name="assoc" title="assoc">
                             <option value="">Please Select</option>
@@ -235,7 +236,7 @@
                             <option value="Other">Other</option>
                             </select>
                     </div>
-                    <div id="assoc_2" class=".assoc">
+                    <div id="assoc_2" class="assoc">
                             <label for="assoc">Association</label>
                             <select id="assoc2" class="" name="assoc" title="assoc">
                             <option value=""></option>
@@ -279,7 +280,7 @@
         </div>
     
     </div><!--end footer-->
-  </div>
+    </div>
     <!--validate script-->
     <script>
         ofc_validate("#landing");
@@ -290,111 +291,112 @@
     
         var state = $("#state").val();
         var market = $("#00N30000007fLM4").val();
-        var association = $("#assoc").val();
+        var association = $("#assoc1").val();
+        
         
         function updateInfo() {
+
            if(state=="WI" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qoft'); //
-                 
-                   } else if(state=="NY" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qofo'); //
+             $("#campaignID").val('701a0000002Qoft'); //
+         
+           } else if(state=="NY" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qofo'); //
 
-                   } else if(state=="FL" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qog3'); //
+           } else if(state=="FL" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qog3'); //
 
-                   } else if(state=="NV" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QogD'); //
+           } else if(state=="NV" && market=="Dental") {
+             $("#campaignID").val('701a0000002QogD'); //
 
-                   } else if(state=="GA" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QogS'); //
+           } else if(state=="GA" && market=="Dental") {
+             $("#campaignID").val('701a0000002QogS'); //
 
-                   } else if(state=="CA" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QogX'); //
+           } else if(state=="CA" && market=="Dental") {
+             $("#campaignID").val('701a0000002QogX'); //
 
-                   } else if(state=="AL" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qohz'); //
+           } else if(state=="AL" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qohz'); //
 
-                   } else if(state=="CO" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qoi9'); //
+           } else if(state=="CO" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qoi9'); //
 
-                   } else if(state=="CT" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qohp'); //
+           } else if(state=="CT" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qohp'); //
 
-                   } else if(state=="HI" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QoiE'); //
+           } else if(state=="HI" && market=="Dental") {
+             $("#campaignID").val('701a0000002QoiE'); //
 
-                   } else if(state=="IL" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qohu'); //
+           } else if(state=="IL" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qohu'); //
 
-                   } else if(state=="KY" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QoiJ'); //
+           } else if(state=="KY" && market=="Dental") {
+             $("#campaignID").val('701a0000002QoiJ'); //
 
-                   } else if(state=="MI" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QohG'); //
+           } else if(state=="MI" && market=="Dental") {
+             $("#campaignID").val('701a0000002QohG'); //
 
-                   } else if(state=="MN" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QohV'); //
+           } else if(state=="MN" && market=="Dental") {
+             $("#campaignID").val('701a0000002QohV'); //
 
-                   } else if(state=="MA" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qogr'); //
+           } else if(state=="MA" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qogr'); //
 
-                   } else if(state=="MO" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QoiO'); //
+           } else if(state=="MO" && market=="Dental") {
+             $("#campaignID").val('701a0000002QoiO'); //
 
-                   } else if(state=="MD" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qohk'); //
+           } else if(state=="MD" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qohk'); //
 
-                   } else if(state=="NC" && market=="Dental") {
-                     $("#campaignID").val('701a0000002Qoh6'); //
+           } else if(state=="NC" && market=="Dental") {
+             $("#campaignID").val('701a0000002Qoh6'); //
 
-                   } else if(state=="NH" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QohL'); //
+           } else if(state=="NH" && market=="Dental") {
+             $("#campaignID").val('701a0000002QohL'); //
 
-                   } else if(state=="NJ" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QoiT'); //
+           } else if(state=="NJ" && market=="Dental") {
+             $("#campaignID").val('701a0000002QoiT'); //
 
-                   } else if(state=="SC" && market=="Dental") {
-                     $("#campaignID").val('701a0000002QoiY'); //
+           } else if(state=="SC" && market=="Dental") {
+             $("#campaignID").val('701a0000002QoiY'); //
 
-                   } else if (market=="Periodontology") {
-                     $("#campaignID").val('701a0000002QogN'); //
-                     $("#00N30000007fLM4").val('Dental');
+           } else if (market=="Periodontology") {
+             $("#campaignID").val('701a0000002QogN'); //
 
-                   } else if(market=="Otolaryngology") {
-                     $("#campaignID").val('701a0000002Qogh'); //
-                 
-                   } else if (market=="Podiatry") {
-                        if (association == "ACFAS") {
-                            $("#campaignID").val('701a0000002Qogw'); //
-                        } else {
-                            $("#campaignID").val('701a0000002Qog8'); //
-                        }
+           } else if(market=="Otolaryngology") {
+             $("#campaignID").val('701a0000002Qogh'); //
+         
+           } else if (market=="Podiatry") {
+                if (association == "ACFAS") {
+                    $("#campaignID").val('701a0000002Qogw'); //
+                } else {
+                    $("#campaignID").val('701a0000002Qog8'); //
+                }
 
-                   } else if (market=="Dermatology") {
-                     $("#campaignID").val('701a0000002Qofe'); //
+           } else if (market=="Dermatology") {
+             $("#campaignID").val('701a0000002Qofe'); //
 
-                   } else if (market=="Pediatrics") {
-                        if (association == "AAP") {
-                            $("#campaignID").val('701a0000002Qoh1'); //
-                        } else {
-                            $("#campaignID").val('701a0000002Qogm'); //
-                        }
+           } else if (market=="Pediatrics") {
+                if (association == "AAP") {
+                    $("#campaignID").val('701a0000002Qoh1'); //
+                } else {
+                    $("#campaignID").val('701a0000002Qogm'); //
+                }
 
-                   } else if (market=="Gastroenterology") {
-                     $("#campaignID").val('701a0000002Qoi4'); //
+           } else if (market=="Gastroenterology") {
+             $("#campaignID").val('701a0000002Qoi4'); //
 
-                   }  else if (market=="Obstetrics Gynecology") {
-                     $("#campaignID").val('701a0000002QohB'); //
+           }  else if (market=="Obstetrics Gynecology") {
+             $("#campaignID").val('701a0000002QohB'); //
 
-                   } else {
-                     $("#campaignID").val('701a0000002Qofy'); //
-                   }  //overflow ^
+           } else {
+             $("#campaignID").val('701a0000002Qofy'); //
+           }  //overflow ^
         }
 
         function updateURL() {
                 if(market=="Dental") {
                     $("#retURL").val('http://go.officite.com/test/dental.html');
-                } else if (market="Periodontology") {
+                } else if (market=="Periodontology") {
                     $("#retURL").val('http://go.officite.com/test/dental.html');
                 }
                 else {
@@ -405,58 +407,69 @@
         function showBox(assoc) {
             var el = document.getElementById(assoc);
             el.style.display ='block';
-            }
+        }
             
-            function hideBox(assoc){
+        function hideBox(assoc){
             var le = document.getElementById(assoc);
             le.style.display ='none';
         }
 
         function updateAssoc(assocSelect) {
+
             $(assocSelect).change(function() { 
             association = $(this).val();
             updateInfo();
 
-              var hiddenCampFF =  $("#campaignID").val();
-              var hiddenURLFF =  $("#retURL").val();
-              console.log('-- debug captured event submit on form -- campaign='+hiddenCampFF+' retURL='+hiddenURLFF);
+            var hiddenMarket = $("#00N30000007fLM4").val();
+            var hiddenCampFF =  $("#campaignID").val();
+            var hiddenURLFF =  $("#retURL").val();
+            console.log('-- debug captured event submit on form -- campaign='+hiddenCampFF+' association='+association+' market='+hiddenMarket);
+              
             });
 
         }
 
-        /*$("#state").change(function() {
+        $("#state").change(function() {
           state = $(this).val();
           updateInfo();
           var hiddenCampFF =  $("#campaignID").val();
-            console.log('-- debug captured event submit on form -- campaign='+hiddenCampFF);
+            console.log('-- update state -- campaign='+hiddenCampFF);
+        });
 
-        });*/
+        $("#00N30000007fLM4").change(function() {
+          market = $(this).val();
+          var assocPod="assoc_1";
+          var assocPed="assoc_2";
+
+          if (market=="Podiatry"){
+              showBox(assocPod);
+              hideBox(assocPed);
+              var assocSelect = "#assoc1";
+          } else if (market=="Pediatrics"){
+              showBox(assocPed);
+              hideBox(assocPod);
+              var assocSelect = "#assoc2";
+          } else {
+              hideBox(assocPed);
+              hideBox(assocPod);
+          }
+
+          updateInfo();
+          updateURL();
+          updateAssoc(assocSelect);
+
+          var hiddenMarket = $("#00N30000007fLM4").val();
+          var hiddenCampFF =  $("#campaignID").val();
+          var hiddenURLFF =  $("#retURL").val();
+          console.log('-- debug captured event submit on form -- campaign='+hiddenCampFF+' retURL='+hiddenURLFF+' market='+hiddenMarket);
+        });
 
         $("#landing").on('submit', function() { // market 
-            state = $("#state").val();
-            market = $("#00N30000007fLM4").val();
-
-              if (market=="Podiatry"){
-                  showBox(assocPod);
-                  hideBox(assocPed);
-                  var assocSelect = "#assoc1";
-              } else if (market=="Pediatrics"){
-                  showBox(assocPed);
-                  hideBox(assocPod);
-                  var assocSelect = "#assoc2";
-              } else {
-                  hideBox(assocPed);
-                  hideBox(assocPod);
-              }
-              updateInfo();
-              updateURL();
-              updateAssoc(assocSelect);
-
-              var hiddenMarket = $("#00N30000007fLM4").val();
-              var hiddenCampFF =  $("#campaignID").val();
-              var hiddenURLFF =  $("#retURL").val();
-              console.log('-- debug captured event submit on form -- campaign='+hiddenCampFF+' retURL='+hiddenURLFF+' market='+hiddenMarket);
+            if (market=="Periodontology") {
+                $("#00N30000007fLM4").val('Dental');
+            }
         });
+        
     </script>
 
 
