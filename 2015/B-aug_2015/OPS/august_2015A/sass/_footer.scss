@@ -1,0 +1,38 @@
+/*
+---------------------
+      Footer
+---------------------
+*/
+
+#footer {
+	background-color: $dk_gray;
+	padding: 40px 0;
+}
+
+#footer img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#footer .container div {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	color: #ffffff;
+}
+
+#footer .container h2{
+	font-family: $oswald;
+	font-weight: 400;
+	margin: 0;
+	color: #ffffff;
+}
+
+#footer .container p{
+	margin: 0;
+	color: #ffffff;
+}
+
+#footer .container a{
+	color: #ffffff;
+}

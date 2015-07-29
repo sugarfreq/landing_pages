@@ -1,0 +1,107 @@
+/*
+---------------------
+    Main Content
+---------------------
+*/
+
+#about{
+	padding: 50px 0;
+}
+
+#about h1{
+	color: $orange;
+	font-family: $oswald;
+	text-align: center;
+	font-weight: 400;
+}
+
+#about p{
+	color: $dk_gray;
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	display: block;
+	margin: 0 auto;
+}
+
+#services{
+	background-color: $gray;
+	padding: 40px 0;
+}
+
+#services h1{
+	color: $orange;
+	font-family: $oswald;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+#services h3 {
+	color: $blue;
+	font-family: $oswald;
+	font-weight: 400;
+}
+
+#services p{
+	color: $dk_gray;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#icons {
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#icons .icon{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+    margin: 30px 10px;
+    position: relative;
+}
+
+#icons:after{
+    content: '';
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icon_img{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+}
+
+.icon_img img{
+	position: absolute;
+	top: 10%;
+	right: 25%;
+}
+
+.icon_hover{
+	display: none;
+    background-color: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    top: 0px;
+    left: 10px;
+	width: 230px;
+	height: 170px;
+	padding: 5%;
+
+	border-radius: 20px;
+	border: 5px solid $orange;
+	text-align: center;
+
+}
+
+.icon_hover > img {
+	display: none;
+	margin: 0 auto;
+}
+

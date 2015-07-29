@@ -1,0 +1,185 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media screen and (max-width: 960px){
+    #contact_strip{
+        width: 40%;
+    }
+
+    #hero img{
+        float: none;
+        padding-left: 10%;
+        vertical-align: top;
+    }
+
+    #hero_images img{
+        max-width: 40%;
+    }
+
+    #hero_image .container{
+        width: 70%;
+    }
+
+    #main.container {
+        top: -80px;
+    }
+
+    #landing{
+        padding-left: 7%;
+    }
+
+    #landing div{
+        width: 30%;
+    }
+
+    #icons{
+        padding: 0;
+    }
+
+    #icons .icon{
+        margin: 0;
+    }
+
+    .icon_img {
+        display: none;
+    }
+
+    .icon_hover{
+        display: block;
+        background-color: $gray;
+        border: none;
+        height: auto;
+        position: static;
+        padding: 0;
+    }
+
+    .icon_hover > img{
+        display: block;
+    }
+ 
+}
+
+@media screen and (max-width: 830px){
+
+    #hero{
+        height: 500px;
+    }
+
+    #hero_image{
+        height: 400px;
+    }
+
+    #hero_image img{
+        max-width: 30%;
+    }
+
+    #footer{
+        text-align: center;
+    }
+
+    #footer .container div{
+        display: block;
+        float: none;
+        padding-left: 70px;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    #header {
+        height: auto;
+    }
+
+    #header img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #contact_strip{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #header p{
+        padding: 0 0 0 40px;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    #hero{
+        padding-top: 65px;
+    }
+
+    #hero h1{
+        font-size: 3.5em;
+        text-align: center;
+        display: block;
+        padding-left: 0;
+    }
+
+    #hero img{
+        display: none;
+    }
+
+    #signup {
+        margin-top: -165px;
+    }
+
+    #about p{
+        width: 90%;
+    }
+
+    #icons div{
+        margin: 0 auto 20px auto;
+    }
+
+    #icons .icon{
+        width: 40%;
+    }
+
+    .icon_hover{
+        width: 100%;
+    }
+
+    #services .container{
+        width: 80%;
+    }
+
+    #footer{
+        text-align: center;
+    }
+
+    #footer .container div{
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #hero{
+        height: 660px;
+    }
+
+    #landing{
+        padding-left: 0;
+    }
+
+    #landing div{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #signup input[type="text"]{
+        width: 98%;
+    }
+
+    #icons .icon{
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+#hero{
+	background-color: $orange;
+	height: 600px;
+	padding-top: 85px;
+}
+
+#hero_image{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2d3d5+0,f5f4f5+100 */
+	background: $grad-top; /* Old browsers */
+	background: -moz-linear-gradient(top,  $grad-top 0%, $grad-bot 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$grad-top), color-stop(100%,$grad-bot)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  $grad-top 0%,$grad-bot 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  $grad-top 0%,$grad-bot 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  $grad-top 0%,$grad-bot 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  $grad-top 0%,$grad-bot 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$grad-top', endColorstr='$grad-bot',GradientType=0 ); /* IE6-9 */
+
+	border-bottom: 10px solid $dk_gray;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+
+	height: 475px;
+	width: 150%;
+	margin: 0 -25%;
+}
+
+#hero h1{
+	color: $dk_gray;
+	font-family: $oswald;
+	font-weight: 300;
+	font-size: 55px;
+	display: inline-block;
+	padding: 50px 0 0 50px;
+}
+
+#hero img{
+	display: inline-block;
+	max-width: 40%;
+	padding: 50px 0 0 0;
+	float: right;
+}
+

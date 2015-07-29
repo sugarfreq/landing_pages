@@ -1,0 +1,138 @@
+/*
+--------------
+    Form
+--------------
+*/
+
+#signup {
+    background: $dk_gray;
+    margin: -125px 10px 10px 10px;
+    padding-top: 20px;
+    border: 10px solid #ffffff;
+}
+
+#signup .box {
+     background-color: #f2f2f2;
+     border-radius: 10px;
+     margin: 200px auto 20px auto;
+     padding:0 0 20px 0;
+     width:500px;
+     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+}
+
+.form{
+}
+
+#landing {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+#landing div{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+#landing:after{
+    content: '';
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#signup input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #c7cad3;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 12px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    width: 80%;
+}
+
+#signup select {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+#signup .submit {
+    border: medium none;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#signup .submit:hover{
+    color: #fff;
+}
+
+input.phone{
+    font-size:12px;
+    font-weight:100;
+}
+
+#signup p{
+    color:#ffffff;
+    font-size:14px;
+    line-height:16px;
+    margin: 10px 0 20px 0;
+    text-align: left;
+    margin: 5px 20px 0 20px;
+    font-family: Helvetica;
+}
+
+#signup label{
+    color:#fff;
+    font-size:14px;
+    line-height:18px;
+    width: 70px;
+    font-family: Helvetica;
+}
+
+#signup a{
+    color:#ef694c;
+}
+
+#signup h1, #signup h2 { margin-bottom: 25px; }
+
+#signup h1 { 
+    color: #00bbda;
+    font-family: 'Oswald';
+    font-size: 1.8em; 
+    font-weight: normal; 
+    text-align: center;
+    margin: 0 20px 10px 20px;
+
+}
+
+#signup .sub {
+    clear: both;
+    color: #00bbda;
+    font-size: 9px;
+    line-height: 120%;
+    text-align: left;
+    margin: 20px 10px;
+    font-family: Helvetica;
+}
+
+.designs{
+    background: $blue;
+    width: 180px;
+    height: 37px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 30px 0 0 0;
+    font-family: 'oswald';
+    font-weight: lighter;
+    font-size: 20px;
+    display: block;
+    box-shadow: 4px 4px 0 #4c371e;
+}
+
+.designs:hover{
+    background-color: #00bbda;
+}
