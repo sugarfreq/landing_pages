@@ -1,0 +1,33 @@
+/*
+---------------------
+      Footer
+---------------------
+*/
+
+footer {
+	height: 50px;
+
+	a{
+		color: $dk_gray;
+	}
+	
+	img+p{
+		font-size: 12px;
+		padding-left: 10px;
+	}
+}
+
+footer img{
+	display: inline-block;
+	padding-top: 50px;
+}
+
+footer p+div,{
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	right: 0;
+	top: 60px;
+
+	
+}

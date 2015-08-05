@@ -1,0 +1,66 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+#hero {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+50,1e5799+100 */
+	background: $grad_start; /* Old browsers */
+	background: -moz-linear-gradient(left, $grad_start 0%, $grad_end 50%, $grad_start 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,$grad_start), color-stop(50%,$grad_end), color-stop(100%,$grad_start)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, $grad_start 0%,$grad_end 50%,$grad_start 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, $grad_start 0%,$grad_end 50%,$grad_start 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, $grad_start 0%,$grad_end 50%,$grad_start 100%); /* IE10+ */
+	background: linear-gradient(to right, $grad_start 0%,$grad_end 50%,$grad_start 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$grad_start', endColorstr='$grad_end',GradientType=1 ); /* IE6-9 */
+
+	margin-top: 85px;
+	position: inherit;
+
+	border-bottom: 10px solid $grad_end;
+	height: 230px;
+}
+
+#hero h1{
+	display: inline-block;
+	font-family: 'Oswald';
+	color: #fff;
+	font-weight: 300;
+	font-size: 60px;
+	margin-top: 20px;
+}
+
+#hero h1 span.indent{
+	padding-left: 70px;
+}
+
+#hero img{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+@import 'form.scss';
+
+#offer{
+	font-family: 'Oswald';
+	display: inline-block;
+	margin-left: 120px;
+	margin-bottom: -11px;
+	text-align: center;
+	vertical-align: bottom;
+
+	h1{
+		font-size: 30px;
+		font-weight: 300;
+	}
+
+	h2{
+		font-size:54px;
+		font-weight: 400;
+		color: $sec-color;
+		text-transform: uppercase;
+	}
+}

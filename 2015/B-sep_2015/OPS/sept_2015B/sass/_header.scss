@@ -1,0 +1,36 @@
+/*
+---------------
+    Header
+---------------
+*/
+
+header{
+    width: 100%;
+    height: 85px;
+    background: #ffffff;
+    box-shadow: 0 0 10px #000000;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
+header img{ 
+    float: left;
+    margin: 1% 1%;
+    max-width: 100%;
+}
+
+header p{
+    color: #58595b;
+    text-align: right;
+    margin: 0;
+    line-height: 3em;
+    padding: 22px 44px 0 0;
+}
+
+header div{
+    height: 45px;
+    width: 35%;
+    float: right;
+}
+

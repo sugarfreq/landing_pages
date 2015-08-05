@@ -1,0 +1,196 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media screen and (min-width: 50px) and (max-width: 960px){
+    #contact_strip{
+        width: 40%;
+    }
+
+
+}
+
+@media screen and (min-width: 50px) and (max-width: 950px){
+    #offer {
+        margin-left: 6%;
+        vertical-align: initial;
+    }
+
+    #services span{
+        font-size: 12px;
+    }
+
+    .service ul {
+            font-size: 14px;
+    }
+ 
+
+
+}
+
+@media screen and (min-width: 50px) and (max-width:853px){
+    #services h1{
+        font-size: 26px;
+
+        span{
+            font-size: 12px;
+        }
+    }
+
+    .service {
+        width: 21%;
+
+        ul{
+            padding-left: 10px;
+        }
+
+        li {
+            padding-bottom: 5px;
+        }
+    }
+}
+
+@media screen and (min-width: 50px) and (max-width:797px){
+    header {
+        height: auto;
+    }
+
+    header p{
+        text-align: center;
+        padding: 0;
+    }
+
+    header img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header div{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header div{
+        padding: 0 0 0 40px;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    
+    #hero {
+        height: 190px;
+
+        img{
+            max-width: 35%;
+        }
+        h1{
+            font-size: 50px;
+        }
+    }
+
+    #offer{
+        width: 40%;
+        vertical-align: top;
+        padding-top: 5%;
+
+        h1{
+            font-size: 24px;
+        }
+
+        h2{
+            font-size: 49px;
+        }
+    }
+
+    .icon_over {
+        display: none;
+    }
+
+    .service {
+        width: 40%;
+        min-width: 180px;
+        max-width: none;
+        height: auto;
+        display: inline-block;
+        margin: 0 4%;
+
+        ul+img{
+            display: none;
+        }
+
+        ul {
+            text-align: center;
+        }
+    }
+
+    #services {
+        height: auto;
+    }
+
+
+}
+
+@media screen and (min-width: 50px) and (max-width: 600px){
+    #hero {
+        h1{
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+            padding-top: 27px;
+            font-size: 40px;
+            text-align: center;
+
+            span{
+                padding-left: 0;
+            }
+        }
+        img {
+            display: none;
+        }
+    }
+
+    #signup {
+        display: block;
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    #offer{
+        display: block;
+        width: 96%;
+        margin-left: 0;
+    }
+
+    #get_started {
+        padding: 0;
+
+        .container div{
+            display: table;
+        }
+    }
+
+    #services {
+        display: none;
+    }   
+
+    footer img, footer img+p{
+        display: none;
+    } 
+
+    footer p+div{
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: 0 auto; 
+        width: 100%;
+
+        h2{
+            font-size: 20px;
+        }
+    }
+}
