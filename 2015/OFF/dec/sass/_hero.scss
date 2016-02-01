@@ -1,0 +1,20 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+section#hero{
+	background: url('../img/background.png') top center repeat-x;
+	color: #0c1c3b;
+	overflow: visible;
+	position: relative;
+	padding: 70px 0 50px 0;
+
+	img{
+		margin: 100px auto 20px auto;
+		display: block;
+	}
+
+}
+

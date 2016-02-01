@@ -1,0 +1,172 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media screen and (min-width: 50px) and (max-width: 960px){
+    #contact_strip{
+        width: 40%;
+    }
+
+
+}
+
+@media screen and (min-width: 50px) and (max-width: 920px){
+    #hero {
+        height: auto;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 480px;
+            position: static;
+        }
+    }
+
+    #signup{
+        display: block;
+        width: 100%;
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    form#landing{
+        width: 40%;
+    }
+
+    #signup div{
+        margin: 16px auto;
+    }
+
+    #main2{
+        height: auto;
+    }
+
+    #package {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #package-copy{
+        display: block;
+        margin: 30px auto 20px auto; 
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (min-width: 50px) and (max-width:853px){
+
+
+    .icon-social{
+        left: 8%;
+    }
+
+    .icon-local-dir{
+        left: 65%;
+    }
+
+}
+
+@media screen and (min-width: 50px) and (max-width:797px){
+    .icon-social{
+        left: 0%;
+    }
+
+    .icon-local-dir{
+        left: 75%;
+    }
+
+    header {
+        height: auto;
+    }
+
+    header p{
+        text-align: center;
+        padding: 0;
+    }
+
+    header img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header div{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header div{
+        padding: 0 0 0 40px;
+        text-align: center;
+        line-height: 2em;
+    }
+
+
+}
+
+@media screen and (min-width: 50px) and (max-width: 700px){
+    .icon-social{
+    left: 18%;
+    }
+
+    .icon-local-dir{
+        left: 57%;
+    }
+
+
+    #get_started {
+        padding: 0;
+
+        .container div{
+            display: table;
+            margin: 0 auto;
+        }
+    }
+
+    form#landing {
+        width: 200px;
+    }
+
+    #signup .half-form{
+        display: block;
+        width: 100%;
+        margin: 16px auto;
+    }
+
+    .half-form label{
+        margin-left: 20px;
+    }
+
+    .packages{
+        display: table;
+        margin: 0 auto;
+    }
+
+    input+div{
+        margin-left: 0 !important;
+    }
+  
+
+    footer img, footer img+p{
+        display: none;
+    } 
+
+    footer p+div{
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: 0 auto; 
+        width: 100%;
+
+        h2{
+            font-size: 20px;
+        }
+    }
+}

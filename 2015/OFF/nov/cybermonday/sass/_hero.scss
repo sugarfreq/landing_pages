@@ -1,0 +1,63 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+section#hero{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d45e5f+0,bf0f11+50,7c0a0b+100 */
+	background: #d45e5f; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #d45e5f 0%, #bf0f11 50%, #7c0a0b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #d45e5f 0%,#bf0f11 50%,#7c0a0b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #d45e5f 0%,#bf0f11 50%,#7c0a0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d45e5f', endColorstr='#7c0a0b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	color: #ffffff;
+	position: relative;
+	z-index: 800;
+
+	
+	h1{
+		font-family: 'Lato', Sans-Serif;
+		text-transform: uppercase;
+		font-weight: 300;
+		color: #ffd845;
+		text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	}
+
+	h1:nth-child(1){
+		font-size: 90px;
+		letter-spacing: 10px;
+	}
+	h1:nth-child(2){
+		font-size: 80px;
+	}
+	h1:nth-child(3){
+		font-size: 70px;
+		letter-spacing: 34px;
+	}
+
+	.image{
+		display: inline-block;
+		margin-top: -30px;
+		vertical-align: top;
+	}
+
+	.text{
+		display: inline-block;
+		text-align:center;
+		padding-top: 50px;
+		padding-left: 70px;
+		vertical-align: top;
+	}
+
+}
+
+section#ribbon{
+	background: url('../img/ribbon.png') repeat-x center center;
+	height: 227px;
+	position: relative;
+	z-index: 900;
+	margin-top: -94px;
+}
+

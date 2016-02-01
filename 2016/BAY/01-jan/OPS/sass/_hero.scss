@@ -1,0 +1,62 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+#hero{
+	background: url('../img/hero-bkgrd.png') no-repeat top center; 
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#96d8ee+0,1ba9d7+100 */
+	background: $AoPcolor; /* Old browsers */
+	background: -moz-radial-gradient(bottom, ellipse cover,  $AoPcolor2 0%, $AoPcolor 75%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(bottom, ellipse cover,  $AoPcolor2 0%,$AoPcolor 75%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at bottom,  $AoPcolor2 0%,$AoPcolor 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$AoPcolor2', endColorstr='$AoPcolor',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	height: auto;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: 15px solid $yellow;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 200%;
+	margin: 100px -50% 0 -50%;
+	position: relative;
+	z-index: 900;
+
+	.container{
+		width: 46%;
+	}
+
+
+	h1{
+		text-align: center;
+		text-transform: uppercase;
+		color: $white;
+		font-size: 60px;
+	}
+
+	h3{
+		text-align: center;
+		color: $dk_gray;
+		font-weight: 300;
+		font-size: 36px;
+	}
+
+	img{
+		width: 100%;
+		max-width: 1000px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#title{
+		padding: 28px 0;
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+@import 'form.scss';
+

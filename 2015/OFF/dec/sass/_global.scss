@@ -1,0 +1,91 @@
+/*
+---------------
+    Global
+---------------
+*/
+
+body#index{
+	background-color: #bbd9ed;
+}
+
+body#winner{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00143e+0,00467e+100 */
+	background: #00143e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00143e 0%, #00467e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #00143e 0%,#00467e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #00143e 0%,#00467e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00143e', endColorstr='#00467e',GradientType=0 ); /* IE6-9 */
+	background-position: fixed;
+}
+
+p, h1 {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+	line-height: 60px;
+}
+
+span {
+	color: #ffffff;
+	font-size: 60px;
+	margin: 0 10px;
+}
+
+a{
+	font-family: 'Lato', sans-serif;
+	width: 300px;
+	display: block;
+	background-color: #e5c876;
+	color: #032c5b;
+	padding: 10px 0;
+	margin: 40px auto 20px auto;
+	text-align: center;
+}
+
+.designs{
+	width: 35%;
+	margin: 50px auto 60px auto;
+	line-height: 36px;
+}
+
+#services .container{
+	width: 60%;
+	line-height: 30px;
+}
+
+#services p{
+	padding-bottom: 50px;
+}
+
+img{
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#icons{
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	text-align: justify;
+}
+
+#icons span{
+	display: inline-block;
+	width: 11%;
+	vertical-align: top;
+}
+
+#icons:after{
+    content: '';
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+

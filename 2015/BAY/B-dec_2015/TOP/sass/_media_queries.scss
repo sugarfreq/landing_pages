@@ -1,0 +1,112 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media screen and (min-width: 50px) and (max-width: 1000px){
+    
+}
+
+@media screen and (min-width: 50px) and (max-width: 880px){
+    #hero {
+        #col{
+            width: 70%;
+        }
+    }
+
+
+    section#section1, section#section2{
+        .image{
+            display: table-header-group;
+
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .text{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 50px) and (max-width:750px){
+    .spaced{
+        letter-spacing: 16px;
+    }
+
+    #hero #title{
+        display: table-header-group;
+    }
+
+    #hero{
+        h1{
+            font-size: 60px;
+        }
+        h3{
+            font-size: 20px;
+        }
+    }
+
+    #hero #signup{
+        width: 70%;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    
+}
+
+@media screen and (min-width: 50px) and (max-width:650px){
+    footer{
+        text-align: center;
+
+        .links{
+            display: none;
+        }
+
+        .right_footer{
+            display: block;
+            text-align: center;
+            position: static;
+        }
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+    section#section1, section#section2{
+        .text{
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 50px) and (max-width: 500px){
+    header{
+        height: auto;
+
+    }
+    header img{
+        float: none;
+        margin: 0 auto;
+        display: block;
+        padding: 0 0 0 0;
+    }
+    header div{
+        height: auto;
+        float: none;
+        margin: 0 auto;
+        height: auto;
+    }
+    header p{
+        text-align: center;
+        padding: 5px 0;
+        line-height: 1em;
+    }
+
+}

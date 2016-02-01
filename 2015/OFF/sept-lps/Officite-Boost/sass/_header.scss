@@ -1,0 +1,42 @@
+/*
+---------------
+    Header
+---------------
+*/
+
+header{
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	padding-top: 10px;
+	width: 100%;
+	z-index: 999999;
+}
+
+header .container {
+	border-right: none;
+	height: 45px;
+}
+
+header img{
+	display: inline-block;
+}
+
+header p{
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+	position: absolute;
+	padding-top:4px;
+	right: 25px;
+	color: #0075bf;
+}
+
+header span{
+	display: inline-block;
+	color: #fdbd33;
+	font-size: 30px;
+	vertical-align: middle;
+	position: absolute;
+	right: 15%;
+}

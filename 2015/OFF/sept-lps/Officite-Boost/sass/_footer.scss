@@ -1,0 +1,50 @@
+/*
+------------------
+      Footer
+-------------------
+*/
+
+
+footer{
+	display: block;
+	background-color: #001032;
+	color: #ffffff;
+	font-size: 14px;
+	height: 200px;
+
+	position: relative;
+
+	p>a{
+		color: #fff;
+		text-decoration: none;
+		margin: 10px 0;
+		display: block;
+		font-size: 16px;
+	}
+
+	img+p{
+		font-size: 18px;
+		margin: 5px 0;
+	}
+
+
+	div>div{
+		display: inline-block;
+		position: absolute;
+		top: 50px;
+	}
+
+	#contact {
+		right: 0;
+		text-align: center;
+
+		font-family: 'Droid Serif', serif;
+
+		p{
+			font-size: 20px;
+			display: block;
+			margin: 5px 0;
+
+		}
+	}
+}

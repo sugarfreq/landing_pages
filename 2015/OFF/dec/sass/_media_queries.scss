@@ -1,0 +1,22 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media screen and (max-width: 800px){
+	#form{
+		width: 70%;
+	}
+
+	#lead_capture{
+		div{
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 500px){
+	.designs{
+		width: 60%;
+	}
+}

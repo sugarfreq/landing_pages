@@ -1,0 +1,64 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+section#hero{
+	background: url('../img/hero-bkgrd.jpg') center center;
+	margin-top: 70px;
+	color: #0c1c3b;
+	overflow: visible;
+	position: relative;
+	padding: 70px 0 120px 0;
+	
+
+	h1{
+		font-family: 'Lato', Sans-Serif;
+		font-size: 48px;
+		text-transform: uppercase;
+		font-weight: 300;
+	}
+
+	h2{
+		font-family: 'Cinzel', serif;
+		font-size: 55px;
+		padding-left: 130px;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+
+	img{ 
+		display: inline-block;
+		max-width: 100%; 
+		position: relative;
+		right:0;
+		top: 40px;
+	}
+
+	.text{
+		width: 35%;
+		position: relative;
+		left: 0;
+		top: 25px;
+	}
+
+	.video{
+		width: 55%;
+		position: absolute;
+		right: 0;
+		top: 60px;
+	}
+
+	a{
+		display: block;
+		width: 200px;
+		background-color: #fdbc30;
+		border-radius: 10px;
+		padding: 5px 0;
+		text-align: center;
+		margin: 15px auto;
+	}
+
+}
+

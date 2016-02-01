@@ -1,0 +1,43 @@
+/*
+---------------
+    Header
+---------------
+*/
+
+header{
+    width: 100%;
+    height: 100px;
+    background: rgba(255,255,255,0.95);
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
+header img{ 
+    float: left;
+    padding: 25px 0 0 1%;
+    max-width: 100%;
+}
+
+header p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: #f7a329;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    line-height: 3em;
+    padding: 15px 0 0 0;
+}
+
+header #phone{
+    height: 45px;
+    width: 35%;
+    float: right;
+}
+
+
+header span{
+    display: inline-block;
+    vertical-align: middle;
+}

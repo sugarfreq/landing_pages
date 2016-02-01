@@ -1,0 +1,38 @@
+/*
+---------------
+    Header
+---------------
+*/
+
+header{
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	padding: 20px 0;
+	width: 100%;
+	z-index: 999999;
+}
+
+header img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header span{
+	color: #fec329;
+	font-size: 28px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header div>div{
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+
+	p{
+		color: #03276a;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}

@@ -1,0 +1,110 @@
+/*
+---------------
+    form
+---------------
+*/
+#gate{
+	background-color: #0076be;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 50px;
+	border-bottom: 5px solid #feb405;
+	.table-cell p{
+		padding: 10px 0;
+	}
+	.table-cell h1{
+		padding-bottom: 10px;
+	}
+	.sub{
+		text-align:center;
+		font-size: 12px;
+	}
+}
+
+
+#form {
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 70px;
+	vertical-align: top;	
+}
+
+#lead_capture{
+	width: 450px;
+	padding-left: 50px;
+	position: relative;
+
+	div{
+		margin: 15px auto;
+		position: relative;
+	}
+
+	label {
+		display: inline-block;
+		text-align: right;
+		width: 130px;
+	}
+
+	input[type="text"]{
+		width: 265px;
+		height: 30px;
+		border-radius: 7px;
+		border: 1px solid #C5C5C5;
+		padding: 5px;
+	}
+
+	input:focus, select:focus{
+		outline: none;
+		border: 2px solid #feb405;
+	}
+
+	select {
+		width: 265px;
+		height: 30px;
+		padding-left: 10px;
+		border-radius: 7px;
+		border: 1px solid #C5C5C5;
+		vertical-align: bottom;
+	}
+
+	.red{
+		color: #feb405;
+		font-size: 14px;
+		margin: 0;
+		padding: 0 5px 0 5px;
+	}
+
+	.blend{
+		color:#0076be;
+		font-size: 14px;
+		margin: 0;
+		padding: 0 5px 0 5px;
+	}
+
+	input[type="submit"] {
+		display: block;
+		position: absolute;
+		right: 0;
+
+		background-color: #feb405;
+		color: #0076be;
+		font-size: 16px;
+		text-transform: uppercase;
+
+		border-radius: 10px;
+		border: medium none;
+
+		padding: 5px 10px;
+		width: 265px;
+
+		transition: all 200ms ease-out;
+	}
+
+	input[type="submit"]:hover{
+		background-color: #032c5b;
+		color: #ffffff;
+	}
+
+}
+

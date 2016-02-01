@@ -1,0 +1,109 @@
+/*
+--------------
+    Form
+--------------
+*/
+
+#signup {
+	margin: 0 auto;
+	vertical-align: middle;
+	width: 90%;
+
+
+	h2{
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+
+	img {
+		position: absolute;
+		top: 10px;
+		right: -20px;
+	}
+
+	p{
+		color: $dk_gray;
+		font-size: 10px;
+		font-family: Arial;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+}
+
+form {
+	padding: 20px 40px;
+	color: $white;
+}
+
+.half-form{
+	display: inline-block;
+	width: 45%;
+	margin: 15px;
+}
+
+input[type="text"]{
+	background-color: $white;
+	color: $dk_gray;
+    border: 1px solid $med_gray;
+    border-radius: 10px;
+
+    font-size: 12px;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 0 auto;
+
+    display: block;
+
+    width: 100%;
+}
+
+input[type="text"]:focus{
+	border: 2px solid $yellow;
+	outline: none;
+}
+
+input[type="submit"] {
+	display: block;
+
+	background-color: $blue;
+	color: $white;
+	font-family: 'Oswald';
+
+	border-radius: 10px;
+	border: medium none;
+
+	padding: 5px 10px;
+	width: 190px;
+
+	transition: all 300ms ease-out;
+}
+
+input[type="submit"]:hover{
+	background-color: $dk_blue;
+	color: $white;
+}
+
+
+
+input[type="text"]:focus+label, input[type="text"].entered+label {
+	color: $white;
+	-webkit-transform: translate(-24px, -30px) scale(0.9, 0.9);
+	-moz-transform: translate(-24px, -30px) scale(0.9, 0.9);
+	-ms-transform: translate(-24px, -30px) scale(0.9, 0.9);
+	-o-transform: translate(-24px, -30px) scale(0.9, 0.9);
+	transform: translate(-24px, -30px) scale(0.9, 0.9);
+}
+
+input+label {
+	display: block;
+	color: $dk_gray;
+	margin-top: -26px;
+	margin-left: 10px;
+	font-size: 12px;
+
+	-webkit-transition: transform 0.25s ease-out;
+	-moz-transition: transform 0.25s ease-out;
+	-ms-transition: transform 0.25s ease-out;
+	-o-transition: transform 0.25s ease-out;
+	transition-duration: 0.2s;
+}

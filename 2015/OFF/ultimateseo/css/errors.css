@@ -1,0 +1,19 @@
+.errors_input
+{
+	border:1px solid #cb0000 !important;
+	background-color:#ffe5e5 !important;
+	color:#cb0000 !important;
+}
+
+.errors_input::-webkit-input-placeholder{
+	color:#cb0000 !important;
+}
+
+.errors_input::-moz-input-placeholder{
+	color:#cb0000 !important;
+}
+
+.errors_input::-ms-input-placeholder{
+	color:#cb0000 !important;
+}
+

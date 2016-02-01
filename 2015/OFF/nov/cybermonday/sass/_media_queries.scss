@@ -1,0 +1,14 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media screen and (max-width: 900px){
+
+	footer{
+		background: #0577c0;
+	}
+}
+
+@media screen and (max-width: 675px){
+}	

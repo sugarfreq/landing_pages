@@ -1,0 +1,9 @@
+// _mixins.scss
+
+@mixins transform($transformation) {
+	-webkit-transform: $transformation;
+	-moz-transform: $transformation;
+	-ms-transform: $transformation;
+	-o-transform: $transformation;
+	transform: $transformation;
+}

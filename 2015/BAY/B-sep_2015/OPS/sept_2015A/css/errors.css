@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.errors_input
+{
+	background:none !important;
+	background-image:none !important; 
+	border:1px solid #cb0000 !important;
+	background-color:#ffe5e5 !important;
+}

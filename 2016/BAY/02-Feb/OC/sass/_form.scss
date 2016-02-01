@@ -1,0 +1,129 @@
+/*
+--------------
+    Form
+--------------
+*/
+
+#signup {
+	margin: -25px auto 0 auto;
+	width: 433px;
+	position: absolute;
+	left: 0;
+
+
+	h2{
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+
+	img {
+		position: absolute;
+		top: 10px;
+		right: -20px;
+	}
+
+	p{
+		color: $dk_gray;
+		font-size: 10px;
+		font-family: Arial;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+}
+
+form {
+	padding: 0 40px;
+	color: $white;
+}
+
+.half-form{
+	display: block;
+	width: 100%;
+	margin: 15px;
+	padding-top: 15px;
+}
+
+input[type="text"]{
+	background-color: $white;
+	color: $dk_gray;
+    border: 1px solid $med_gray;
+    border-radius: 10px;
+
+    font-size: 12px;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 0 auto;
+
+    display: block;
+
+    width: 100%;
+}
+
+input[type="text"]:focus{
+	border: 2px solid $yellow;
+	outline: none;
+}
+
+input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 5px 40px;
+
+	background: #6fbe4c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7EC35F 0%, #6fbe4c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #7EC35F 0%,#6fbe4c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #7EC35F 0%,#6fbe4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7EC35F', endColorstr='#6fbe4c',GradientType=0 ); /* IE6-9 */
+
+
+	color: $white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 26px;
+	font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	-webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    -moz-text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border: 1px solid #45C10D;
+
+
+
+	transition: All 0.3s ease-in-out;
+    -webkit-transition: All 0.3s ease-in-out;
+    -moz-transition: All 0.3s ease-in-out;
+    -o-transition: All 0.3s ease-in-out;
+    -ms-transition: All 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover{
+	background-color: #f8a928;
+	color: $white;
+}
+
+
+
+input[type="text"]:focus+label, input[type="text"].entered+label {
+	color: $white;
+	-webkit-transform: translate(-24px, -30px) scale(0.9, 0.9);
+	-moz-transform: translate(-24px, -30px) scale(0.9, 0.9);
+	-ms-transform: translate(-24px, -30px) scale(0.9, 0.9);
+	-o-transform: translate(-24px, -30px) scale(0.9, 0.9);
+	transform: translate(-24px, -30px) scale(0.9, 0.9);
+}
+
+input+label {
+	display: block;
+	color: $dk_gray;
+	margin-top: -26px;
+	margin-left: 10px;
+	font-size: 12px;
+
+	-webkit-transition: transform 0.25s ease-out;
+	-moz-transition: transform 0.25s ease-out;
+	-ms-transition: transform 0.25s ease-out;
+	-o-transition: transform 0.25s ease-out;
+	transition-duration: 0.2s;
+}

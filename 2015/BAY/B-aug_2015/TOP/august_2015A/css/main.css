@@ -1,0 +1,788 @@
+/*
+---------------------
+    Variables
+---------------------
+*/
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #000000; }
+
+html {
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: arial;
+  background-color: #fff; }
+
+body {
+  background: #ffffff; }
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/*
+------------------
+    Icon Fonts
+-------------------
+*/
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-jtnpyn");
+  src: url("../fonts/icomoon.eot?#iefix-jtnpyn") format("embedded-opentype"), url("../fonts/icomoon.woff?-jtnpyn") format("woff"), url("../fonts/icomoon.ttf?-jtnpyn") format("truetype"), url("../fonts/icomoon.svg?-jtnpyn#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 1.6em;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-phone:before {
+  content: "\e600"; }
+
+/*
+---------------
+    Global
+---------------
+*/
+.yellow {
+  color: #fbcd49 !important; }
+
+.blue {
+  color: #1990ce !important; }
+
+.gray {
+  color: #808588; }
+
+.orange {
+  color: #f68904; }
+
+.lobster {
+  font-family: 'Lobster'; }
+
+.shadow {
+  text-shadow: 3px 3px 5px #c4c4c5; }
+
+.glow {
+  text-shadow: 0 0 2px #4687c7; }
+
+.caps {
+  text-transform: uppercase !important; }
+
+.container {
+  width: 96%;
+  max-width: 1000px;
+  margin: auto;
+  position: relative; }
+
+.rtjust {
+  text-align: right; }
+
+.lfjust {
+  text-align: left; }
+
+.ctjust {
+  text-align: center; }
+
+.ltweight {
+  font-weight: 300; }
+
+.bold {
+  font-weight: 700; }
+
+.strike {
+  text-decoration: line-through; }
+
+.third {
+  width: 25%; }
+
+.right_col {
+  width: 40%;
+  display: inline-block;
+  margin: 0 20px 0 15px; }
+
+.left_col {
+  width: 52%;
+  display: inline-block;
+  margin: 0 15px 0 20px; }
+
+.clear {
+  clear: both; }
+
+/*
+---------------
+    Header
+---------------
+*/
+#header {
+  width: 100%;
+  height: 85px;
+  background: #ffffff;
+  box-shadow: 0 0 10px #000000;
+  position: fixed;
+  z-index: 99999; }
+
+#header img {
+  float: left;
+  margin: 1% 1%;
+  max-width: 100%; }
+
+#header p {
+  color: #58595b;
+  text-align: right;
+  margin: 0;
+  line-height: 3em;
+  padding: 22px 44px 0 0; }
+
+#contact_strip {
+  height: 45px;
+  width: 35%;
+  float: right; }
+
+/*
+-------------
+    Hero
+-------------
+*/
+#hero {
+  background-color: #f7a32a;
+  height: 600px;
+  padding-top: 85px; }
+
+#hero_image {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d2d3d5+0,f5f4f5+100 */
+  background: #d2d3d5;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d2d3d5 0%, #f5f4f5 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d2d3d5), color-stop(100%, #f5f4f5));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #d2d3d5 0%, #f5f4f5 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #d2d3d5 0%, #f5f4f5 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #d2d3d5 0%, #f5f4f5 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #d2d3d5 0%, #f5f4f5 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$grad-top', endColorstr='$grad-bot',GradientType=0 );
+  /* IE6-9 */
+  border-bottom: 10px solid #4e4f4f;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  height: 475px;
+  width: 150%;
+  margin: 0 -25%; }
+
+#hero h1 {
+  color: #4e4f4f;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
+  font-weight: 300;
+  font-size: 55px;
+  display: inline-block;
+  padding: 50px 0 0 50px; }
+
+#hero img {
+  display: inline-block;
+  max-width: 40%;
+  padding: 50px 0 0 0;
+  float: right; }
+
+/*
+---------------------
+    Main Content
+---------------------
+*/
+#about {
+  padding: 50px 0; }
+
+#about h1 {
+  color: #f7a32a;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
+  text-align: center;
+  font-weight: 400; }
+
+#about p {
+  color: #4e4f4f;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  width: 700px;
+  display: block;
+  margin: 0 auto; }
+
+#services {
+  background-color: #d7d8d9;
+  padding: 40px 0; }
+
+#services h1 {
+  color: #f7a32a;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px 1px 1px #ffffff; }
+
+#services h3 {
+  color: #1990ce;
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
+  font-weight: 400; }
+
+#services p {
+  color: #4e4f4f;
+  font-size: 14px;
+  line-height: 24px; }
+
+#icons {
+  margin: 0 auto;
+  text-align: justify; }
+
+#icons .icon {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  text-align: center;
+  margin: 30px 10px;
+  position: relative; }
+
+#icons:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+  vertical-align: top; }
+
+.icon_img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px; }
+
+.icon_img img {
+  position: absolute;
+  top: 10%;
+  right: 25%; }
+
+.icon_hover {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.85);
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 230px;
+  height: 170px;
+  padding: 5%;
+  border-radius: 20px;
+  border: 5px solid #f7a32a;
+  text-align: center; }
+
+.icon_hover > img {
+  display: none;
+  margin: 0 auto; }
+
+/*
+--------------
+    Form
+--------------
+*/
+#signup {
+  background: #4e4f4f;
+  margin: -125px 10px 10px 10px;
+  padding-top: 20px;
+  border: 10px solid #ffffff; }
+
+#signup .box {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 200px auto 20px auto;
+  padding: 0 0 20px 0;
+  width: 500px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5); }
+
+#landing {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  text-align: justify; }
+
+#landing div {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top; }
+
+#landing:after {
+  content: '';
+  width: 20%;
+  display: inline-block;
+  vertical-align: top; }
+
+#signup input[type="text"] {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #c7cad3;
+  border-radius: 4px 4px 4px 4px;
+  font-size: 12px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  width: 80%; }
+
+#signup select {
+  margin-bottom: 15px;
+  margin-left: 15px; }
+
+#signup .submit {
+  border: medium none;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 auto; }
+
+#signup .submit:hover {
+  color: #fff; }
+
+input.phone {
+  font-size: 12px;
+  font-weight: 100; }
+
+#signup p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 10px 0 20px 0;
+  text-align: left;
+  margin: 5px 20px 0 20px;
+  font-family: Helvetica; }
+
+#signup label {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  width: 70px;
+  font-family: Helvetica; }
+
+#signup a {
+  color: #ef694c; }
+
+#signup h1, #signup h2 {
+  margin-bottom: 25px; }
+
+#signup h1 {
+  color: #00bbda;
+  font-family: 'Oswald';
+  font-size: 1.8em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 20px 10px 20px; }
+
+#signup .sub {
+  clear: both;
+  color: #00bbda;
+  font-size: 9px;
+  line-height: 120%;
+  text-align: left;
+  margin: 20px 10px;
+  font-family: Helvetica; }
+
+.designs {
+  background: #1990ce;
+  width: 180px;
+  height: 37px;
+  text-align: center;
+  border-radius: 7px;
+  margin: 30px 0 0 0;
+  font-family: 'oswald';
+  font-weight: lighter;
+  font-size: 20px;
+  display: block;
+  box-shadow: 4px 4px 0 #4c371e; }
+
+.designs:hover {
+  background-color: #00bbda; }
+
+/*
+---------------------
+      Footer
+---------------------
+*/
+#footer {
+  background-color: #4e4f4f;
+  padding: 40px 0; }
+
+#footer img {
+  display: inline-block;
+  vertical-align: middle; }
+
+#footer .container div {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  color: #ffffff; }
+
+#footer .container h2 {
+  font-family: "Oswald", "Ariel Narrow", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #ffffff; }
+
+#footer .container p {
+  margin: 0;
+  color: #ffffff; }
+
+#footer .container a {
+  color: #ffffff; }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px; }
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%; }
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1; }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media screen and (max-width: 960px) {
+  #contact_strip {
+    width: 40%; }
+
+  #hero img {
+    float: none;
+    padding-left: 10%;
+    vertical-align: top; }
+
+  #hero_images img {
+    max-width: 40%; }
+
+  #hero_image .container {
+    width: 70%; }
+
+  #main.container {
+    top: -80px; }
+
+  #landing {
+    padding-left: 7%; }
+
+  #landing div {
+    width: 30%; }
+
+  #icons {
+    padding: 0; }
+
+  #icons .icon {
+    margin: 0; }
+
+  .icon_img {
+    display: none; }
+
+  .icon_hover {
+    display: block;
+    background-color: #d7d8d9;
+    border: none;
+    height: auto;
+    position: static;
+    padding: 0; }
+
+  .icon_hover > img {
+    display: block; } }
+@media screen and (max-width: 830px) {
+  #hero {
+    height: 500px; }
+
+  #hero_image {
+    height: 400px; }
+
+  #hero_image img {
+    max-width: 30%; }
+
+  #footer {
+    text-align: center; }
+
+  #footer .container div {
+    display: block;
+    float: none;
+    padding-left: 70px; } }
+@media screen and (max-width: 700px) {
+  #header {
+    height: auto; }
+
+  #header img {
+    float: none;
+    display: block;
+    margin: 0 auto; }
+
+  #contact_strip {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 100%; }
+
+  #header p {
+    padding: 0 0 0 40px;
+    text-align: center;
+    line-height: 2em; }
+
+  #hero {
+    padding-top: 65px; }
+
+  #hero h1 {
+    font-size: 3.5em;
+    text-align: center;
+    display: block;
+    padding-left: 0; }
+
+  #hero img {
+    display: none; }
+
+  #signup {
+    margin-top: -165px; }
+
+  #about p {
+    width: 90%; }
+
+  #icons div {
+    margin: 0 auto 20px auto; }
+
+  #icons .icon {
+    width: 40%; }
+
+  .icon_hover {
+    width: 100%; }
+
+  #services .container {
+    width: 80%; }
+
+  #footer {
+    text-align: center; }
+
+  #footer .container div {
+    display: block;
+    float: none; } }
+@media screen and (max-width: 600px) {
+  #hero {
+    height: 660px; }
+
+  #landing {
+    padding-left: 0; }
+
+  #landing div {
+    display: block;
+    width: 80%;
+    margin: 0 auto; }
+
+  #signup input[type="text"] {
+    width: 98%; }
+
+  #icons .icon {
+    width: 100%; } }
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/*# sourceMappingURL=main.css.map */

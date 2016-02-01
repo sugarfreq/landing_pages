@@ -1,0 +1,130 @@
+/*
+------------------
+      Footer
+-------------------
+*/
+
+
+footer {
+  display: block;
+  background: 
+    linear-gradient(
+      rgba(5, 119, 192, 0.9), 
+      rgba(5, 119, 192, 0.9)
+    ),
+    url('../img/footer-bg.jpg') no-repeat center 290px fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+  font-size: 12px;
+  position: relative;
+  padding: 20px 0; }
+
+footer img{
+  display: block;
+  padding: 10px 0 20px 0 ;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+.menu-products-menu-container{
+  display: inline-block;
+  width: 50%;
+}
+
+.products_nav{
+  float: left;
+  padding: 0 50px 0 0;
+}
+
+.product_head{
+  display: block;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+}
+
+.products_nav ul li {
+  list-style-type: none;
+}
+
+.products_nav ul{
+  padding-left: 0;
+}
+
+.menu-item{
+  padding: 3px 0;
+}
+
+#company{
+  display: inline-block;
+  width: 30%;
+  float: right;
+  background: rgba(238, 238, 238, 0.6);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+  padding: 10px 20px;
+}
+
+#company a{
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+  color: #192f5a;
+}
+
+#company a:hover{
+  text-decoration: underline;
+}
+
+#company .menu-company-menu-container{ 
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+#company ul{
+  padding-left: 0;
+  margin: 0;
+}
+
+#company ul li{
+  display: inline-block;
+  text-align: center;
+  width: 49%;
+  padding: 5px 0;
+}
+
+#company_footer{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#company .contact_us a{
+  background-color: #fcb32c;
+  font-family: 'Droid Serif', serif;
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#company .contact_us a:hover{
+  background-color: #192f5a;
+  color: #fff;
+}
+
+#company .phone_container{
+  display: inline-block;
+  float: right;
+  font-family: 'Droid Serif', serif;
+  padding: 10px;
+
+}

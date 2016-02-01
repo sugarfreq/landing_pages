@@ -1,0 +1,29 @@
+/*
+---------------
+    Header
+---------------
+*/
+
+#header{
+	position: fixed;
+	top: 0;
+	background-color: $grad_top;
+	padding-top: 20px;
+	width: 100%;
+	z-index: 999999;
+}
+
+#header .container {
+	border-bottom: 2px solid #fcb32b;
+	border-right: none;
+	height: 54px;
+}
+
+#header img{
+	float: left;
+}
+
+#header p{
+	text-align: right;
+	padding-top: 8px;
+}

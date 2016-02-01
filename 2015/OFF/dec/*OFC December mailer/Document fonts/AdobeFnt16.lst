@@ -1,0 +1,244 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Allura-Regular
+FamilyName:Allura
+StyleName:Regular
+MenuName:Allura
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Allura
+WritingScript:Roman
+OutlineFileName:\Allura-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:49000
+FileModTime:1370353894
+NameArray:0,Mac,4,Allura
+NameArray:0,Win,1,Allura
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Black
+FamilyName:Lato
+StyleName:Black
+MenuName:Lato Black
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Lato Black
+WritingScript:Roman
+OutlineFileName:\Lato-Black.ttf
+DataFormat:sfntData
+FileLength:590648
+FileModTime:1427213902
+NameArray:0,Mac,4,Lato Black
+NameArray:0,Win,1,Lato Black
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-BlackItalic
+FamilyName:Lato
+StyleName:Black Italic
+MenuName:Lato Black
+StyleBits:1
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:Lato Black Italic
+WritingScript:Roman
+OutlineFileName:\Lato-BlackItalic.ttf
+DataFormat:sfntData
+FileLength:649016
+FileModTime:1427213902
+NameArray:0,Mac,4,Lato Black Italic
+NameArray:0,Win,1,Lato Black
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-HeavyItalic
+FamilyName:Lato
+StyleName:Heavy Italic
+MenuName:Lato Heavy
+StyleBits:1
+WeightClass:800
+WidthClass:5
+AngleClass:1
+FullName:Lato Heavy Italic
+WritingScript:Roman
+OutlineFileName:\Lato-HeavyItalic.ttf
+DataFormat:sfntData
+FileLength:675400
+FileModTime:1427213908
+NameArray:0,Mac,4,Lato Heavy Italic
+NameArray:0,Win,1,Lato Heavy
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Italic
+FamilyName:Lato
+StyleName:Italic
+MenuName:Lato
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Lato Italic
+WritingScript:Roman
+OutlineFileName:\Lato-Italic.ttf
+DataFormat:sfntData
+FileLength:699800
+FileModTime:1427213910
+NameArray:0,Mac,4,Lato Italic
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Light
+FamilyName:Lato
+StyleName:Light
+MenuName:Lato Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Lato Light
+WritingScript:Roman
+OutlineFileName:\Lato-Light.ttf
+DataFormat:sfntData
+FileLength:620084
+FileModTime:1427213910
+NameArray:0,Mac,4,Lato Light
+NameArray:0,Win,1,Lato Light
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-LightItalic
+FamilyName:Lato
+StyleName:Light Italic
+MenuName:Lato Light
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Lato Light Italic
+WritingScript:Roman
+OutlineFileName:\Lato-LightItalic.ttf
+DataFormat:sfntData
+FileLength:634188
+FileModTime:1427213912
+NameArray:0,Mac,4,Lato Light Italic
+NameArray:0,Win,1,Lato Light
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Medium
+FamilyName:Lato
+StyleName:Medium
+MenuName:Lato Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Lato Medium
+WritingScript:Roman
+OutlineFileName:\Lato-Medium.ttf
+DataFormat:sfntData
+FileLength:612812
+FileModTime:1427213912
+NameArray:0,Mac,4,Lato Medium
+NameArray:0,Win,1,Lato Medium
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-MediumItalic
+FamilyName:Lato
+StyleName:Medium Italic
+MenuName:Lato Medium
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:1
+FullName:Lato Medium Italic
+WritingScript:Roman
+OutlineFileName:\Lato-MediumItalic.ttf
+DataFormat:sfntData
+FileLength:671712
+FileModTime:1427213914
+NameArray:0,Mac,4,Lato Medium Italic
+NameArray:0,Win,1,Lato Medium
+NameArray:0,Win,16,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-Regular
+FamilyName:Lato
+StyleName:Regular
+MenuName:Lato
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Lato Regular
+WritingScript:Roman
+OutlineFileName:\Lato-Regular.ttf
+DataFormat:sfntData
+FileLength:632632
+FileModTime:1427213914
+NameArray:0,Mac,4,Lato Regular
+NameArray:0,Win,1,Lato
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Lato-SemiboldItalic
+FamilyName:Lato
+StyleName:Semibold Italic
+MenuName:Lato Semibold
+StyleBits:1
+WeightClass:600
+WidthClass:5
+AngleClass:1
+FullName:Lato Semibold Italic
+WritingScript:Roman
+OutlineFileName:\Lato-SemiboldItalic.ttf
+DataFormat:sfntData
+FileLength:673940
+FileModTime:1427213916
+NameArray:0,Mac,4,Lato Semibold Italic
+NameArray:0,Win,1,Lato Semibold
+NameArray:0,Win,16,Lato
+%EndFont
+

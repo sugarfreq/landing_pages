@@ -1,0 +1,158 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media screen and (min-width: 50px) and (max-width: 800px){
+    #hero img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #signup {
+        display: block;
+        width: 100%;
+    }
+
+    #landing{
+        padding-top: 0;
+    }
+
+    section#section1, section#section2{
+
+        .image{
+            display: table-header-group;
+
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .text{
+            text-align: center;
+            padding: 0 20px;
+        }
+    }
+
+    section#section3{
+        padding: 30px 0;
+
+        .tabs-nav{
+            display: none;
+        }
+
+        .tab.is-active{
+            background-color: $white;
+            margin: 0;
+            padding: 0;
+
+            p{
+                padding-left: 70px;
+                padding-right: 30px;
+            }
+        }
+
+        .tabs  .tab-content span{
+            display: inline-block;
+            color: $blue;
+            font-size: 3em;
+            text-align: center;
+            margin: 0 auto;
+            vertical-align: top;
+        }
+
+        .tabs .tab-content h1{
+            display: inline-block;
+            color: $blue;
+            vertical-align: top;
+        }
+
+        .tabs .tab{
+            display: block;
+            margin: 0 auto 40px auto;
+        }
+
+        .tab p{
+            padding-left: 70px;
+            padding-right: 30px;
+        }
+
+        .tabs .tab:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 50px) and (max-width:650px){
+    footer{
+        text-align: center;
+
+        .links{
+            display: none;
+        }
+
+        .right_footer{
+            display: block;
+            text-align: center;
+            position: static;
+        }
+    }
+
+
+    section#section1, section#section2{
+        .text{
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 50px) and (max-width: 500px){
+
+
+    header{
+        height: auto;
+
+    }
+    header img{
+        float: none;
+        margin: 0 auto;
+        display: block;
+        padding: 0 0 0 0;
+    }
+    header div{
+        height: auto;
+        float: none;
+        margin: 0 auto;
+        height: auto;
+    }
+    header p{
+        text-align: center;
+        padding: 5px 0;
+        line-height: 1em;
+    }
+
+    section#section2 img{
+        max-width: 500px;
+        width: 100%;
+    }
+
+    section#section3{
+        .tabs  .tab-content span{
+            font-size: 2.4em;
+        }
+
+        .tabs .tab-content h1{
+            font-size: 1.5em;
+        }
+        .tab p, .tab.is-active p{
+            padding-left: 40px;
+            padding-right: 20px;
+        }
+    }
+
+}

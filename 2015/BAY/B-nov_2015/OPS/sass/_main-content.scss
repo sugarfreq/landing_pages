@@ -1,0 +1,88 @@
+/*
+---------------------
+    Main Content
+---------------------
+*/
+
+section#deals{ 
+	border-top: 10px solid #f7a329;
+	background-color: #ffffff;
+	position: relative;
+	padding: 100px 0;
+	
+	.container{
+		display: table;
+	}
+
+	#offer{
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+		width: 300px;
+
+		h4{
+			font-weight: 300;
+			font-size: 27px;
+			line-height: 27px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+
+		h1{
+			color: $sec_color;
+			text-transform: uppercase;
+			font-weight: 300;
+			font-size: 85px;
+			line-height: 80px;
+		}
+
+		h3{
+			font-weight: 300;
+			font-size: 27px;
+			text-transform: uppercase;
+		}
+	}
+
+	#dealscopy{
+		display: table-cell;
+		vertical-align: middle;
+
+		h1{
+			font-size: 24px;
+			padding-bottom: 10px;
+		}
+
+		p{
+			font-size: 16px;
+			line-height: 30px;
+		}
+	}
+
+	span{
+		display: inline-block;
+		color: #508ac7;
+		text-shadow: 1px 1px 1px rgba(0,0,0, 0.75);
+		font-size: 35px;
+		padding: 10px 5px;
+	}
+}
+
+section#designs{
+	background-color: #e3e3e3;
+	text-align: center;
+	padding: 100px 0;
+
+	#designimgs{
+		display: table;
+		margin: 0 auto;
+
+		div{
+			display: table-cell;
+			padding: 40px;
+
+			img{
+				width: 100%;
+			}
+		}
+	}
+}

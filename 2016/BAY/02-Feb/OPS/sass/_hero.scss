@@ -1,0 +1,53 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+#hero{
+	background: url('../img/herobkgrd.png') top center no-repeat $AoPcolor; 
+	height: auto;
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	z-index: 900;
+	border-bottom: 5px solid #6fbe4c;
+    box-shadow: 0px 1px 8px #777;
+    -webkit-box-shadow: 0px 1px 8px #777;
+    -moz-box-shadow: 0px 1px 8px #777; 
+
+
+	h1{
+		padding-top: 100px;
+		text-align: center;
+		text-transform: uppercase;
+		color: $black;
+		font-size: 45px;
+		text-shadow: 0 2px 2px rgba(0,0,0, 0.4);
+	}
+
+	h3{
+		text-align: center;
+		color: $dk_gray;
+		font-weight: 300;
+		font-size: 36px;
+	}
+
+	img{
+		width: 100%;
+		max-width: 1000px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#title{
+		padding: 10px 0;
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+@import 'form.scss';
+

@@ -1,0 +1,772 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #000; }
+
+html {
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: arial;
+  background-color: #fff;
+  height: 100%; }
+
+body {
+  margin: 0;
+  height: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+.container {
+  width: 96%;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative; }
+
+#wrapper {
+  width: 100%;
+  overflow: hidden; }
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+h1, h2, h3, h4, h5, p {
+  margin: 0; }
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/*
+------------------
+    Icon Fonts
+-------------------
+*/
+@font-face {
+  font-family: 'officite';
+  src: url("../fonts/officite.eot?j8fuh");
+  src: url("../fonts/officite.eot?#iefixj8fuh") format("embedded-opentype"), url("../fonts/officite.ttf?j8fuh") format("truetype"), url("../fonts/officite.woff?j8fuh") format("woff"), url("../fonts/officite.svg?j8fuh#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'officite';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-mobile:before {
+  content: "\e606"; }
+
+.icon-c-mobile:before {
+  content: "\e60c"; }
+
+.icon-c-cursor:before {
+  content: "\e612"; }
+
+.icon-check:before {
+  content: "\e600"; }
+
+.icon-phone:before {
+  content: "\e601"; }
+
+.icon-rocket:before {
+  content: "\e602"; }
+
+.icon-c-check:before {
+  content: "\e603"; }
+
+.icon-c-phone:before {
+  content: "\e604"; }
+
+.icon-c-rocket:before {
+  content: "\e605"; }
+
+.icon-pted:before {
+  content: "\e607"; }
+
+.icon-reptrack:before {
+  content: "\e608"; }
+
+.icon-search:before {
+  content: "\e609"; }
+
+.icon-social:before {
+  content: "\e60a"; }
+
+.icon-web:before {
+  content: "\e60b"; }
+
+.icon-c-pted:before {
+  content: "\e60d"; }
+
+.icon-c-reptrack:before {
+  content: "\e60e"; }
+
+.icon-c-search:before {
+  content: "\e60f"; }
+
+.icon-c-social:before {
+  content: "\e610"; }
+
+.icon-c-web:before {
+  content: "\e611"; }
+
+/*
+---------------------
+    variables
+---------------------
+*/
+/*
+---------------
+    Global
+---------------
+*/
+/*
+---------------
+    Header
+---------------
+*/
+header {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  padding-top: 10px;
+  width: 100%;
+  z-index: 999999; }
+
+header .container {
+  border-right: none;
+  height: 45px; }
+
+header img {
+  display: inline-block; }
+
+header p {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  position: absolute;
+  padding-top: 4px;
+  right: 25px;
+  color: #0075bf; }
+
+header span {
+  display: inline-block;
+  color: #fdbd33;
+  font-size: 30px;
+  vertical-align: middle;
+  position: absolute;
+  right: 15%; }
+
+/*
+-------------
+    Hero
+-------------
+*/
+#hero {
+  background: #001e43;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #001e43 0%, #024a7e 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #001e43), color-stop(100%, #024a7e));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #001e43 0%, #024a7e 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #001e43 0%, #024a7e 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #001e43 0%, #024a7e 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #001e43 0%, #024a7e 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e43', endColorstr='#024a7e',GradientType=0 );
+  /* IE6-9 */
+  color: #a9c5d6;
+  border-bottom: 10px solid #fff;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 200%;
+  margin: 55px -50% 0 -50%;
+  position: relative;
+  z-index: 300;
+  -webkit-box-shadow: inset 0 -2px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0 -2px 7px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 -2px 7px rgba(0, 0, 0, 0.75); }
+  #hero h1 {
+    font-family: 'Droid Serif', serif;
+    font-weight: 300;
+    font-size: 45px; }
+  #hero span {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 5px;
+    font-weight: 400;
+    font-size: 40px; }
+  #hero div > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    text-align: center;
+    position: relative;
+    margin: 40px 0 50px 0; }
+  #hero img {
+    margin-top: 20px; }
+  #hero #get img {
+    position: relative;
+    right: 3px; }
+  #hero img + img {
+    position: absolute;
+    top: 27px; }
+  #hero #payfor img + img {
+    right: 85px; }
+  #hero #get img + img {
+    position: absolute;
+    right: 80px; }
+
+/*
+---------------
+    form
+---------------
+*/
+#hero div > div#get_form {
+  margin-bottom: 30px; }
+  #hero div > div#get_form h1 {
+    display: block;
+    height: 50px;
+    width: 100%; }
+  #hero div > div#get_form span {
+    font-family: 'Droid Serif', serif;
+    text-transform: none; }
+  #hero div > div#get_form p {
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    width: 400px;
+    margin: 7px auto 0 auto; }
+
+#lead_capture {
+  display: block;
+  position: relative;
+  margin-top: 10px; }
+  #lead_capture div {
+    display: inline-block;
+    height: 40px;
+    margin: 5px 0;
+    position: relative; }
+  #lead_capture label {
+    color: #001e43;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    margin-top: -29px;
+    margin-left: 10px;
+    -webkit-transition: transform 0.25s ease-out;
+    -moz-transition: transform 0.25s ease-out;
+    -ms-transition: transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    transition-duration: 0.2s;
+    -webkit-transform: translate(0, 0) scale(1, 1);
+    -moz-transform: translate(0, 0) scale(1, 1);
+    -ms-transform: translate(0, 0) scale(1, 1);
+    -o-transform: translate(0, 0) scale(1, 1);
+    transform: translate(0, 0) scale(1, 1);
+    transform-origin: left bottom; }
+  #lead_capture label#promocode {
+    display: inline-block;
+    color: #ffffff;
+    text-align: left; }
+  #lead_capture div.promo {
+    margin: 0;
+    padding-right: 10px; }
+  #lead_capture .red {
+    color: #e81111;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 5px 0 5px; }
+  #lead_capture .select.red {
+    vertical-align: top; }
+  #lead_capture input[type="text"] {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin: 5px 0;
+    padding: 5px; }
+  #lead_capture input#first_name[type="text"], #lead_capture input#last_name[type="text"] {
+    width: 150px;
+    margin-right: 5px; }
+  #lead_capture input#email[type="text"], #lead_capture input#phone[type="text"] {
+    width: 310px; }
+  #lead_capture input#promo {
+    width: 200px; }
+  #lead_capture input:focus, #lead_capture select:focus {
+    outline: none;
+    border: 3px solid #fdbd33; }
+  #lead_capture input[type="text"]:focus + label, #lead_capture input[type="text"].entered + label {
+    color: #ffffff;
+    -webkit-transform: translate(-3px, -26px) scale(0.7, 0.7);
+    -moz-transform: translate(-3px, -26px) scale(0.7, 0.7);
+    -ms-transform: translate(-3px, -26px) scale(0.7, 0.7);
+    -o-transform: translate(-3px, -26px) scale(0.7, 0.7);
+    transform: translate(-3px, -26px) scale(0.7, 0.7); }
+  #lead_capture select {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    vertical-align: bottom; }
+  #lead_capture select#state {
+    width: 100px;
+    margin-left: 4px; }
+  #lead_capture select[title="Market"] {
+    width: 182px; }
+  #lead_capture input[type="submit"] {
+    display: block;
+    background-color: #fdbd33;
+    color: #001e43;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 10px;
+    border: medium none;
+    padding: 5px 10px;
+    width: 170px;
+    margin: 10px auto 0 auto;
+    transition: all 200ms ease-out; }
+  #lead_capture input[type="submit"]:hover {
+    background-color: #001032;
+    color: #ffffff; }
+
+span#state-select, span#market-select {
+  padding: 0;
+  font-size: 0px; }
+
+@supports (pointer-events: none) and ((-webkit-appearance: none) or (-moz-appearance: none) or (appearance: none) or (-ms-appearance: none) or (-o-appearance: none)) {
+  #lead_capture select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    padding-right: 25px;
+    position: relative;
+    z-index: 100; }
+
+  span#state-select::before, span#market-select::before {
+    background-color: #fdbd33;
+    border-radius: 0 10px 10px 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 10px;
+    width: 25px;
+    pointer-events: none;
+    z-index: 200; }
+
+  span#state-select::after, span#market-select::after {
+    content: "\e613";
+    font-family: 'officite';
+    color: rgba(0, 20, 54, 0.9);
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    right: 21px;
+    pointer-events: none;
+    z-index: 300; } }
+.overlay {
+  background-color: rgba(0, 20, 54, 0.98);
+  position: absolute;
+  width: 100%;
+  height: 250%;
+  z-index: 250;
+  margin-top: -30px; }
+
+/*
+---------------------
+    Main Content
+---------------------
+*/
+#yellow_band {
+  background-color: #fdbd33;
+  height: 375px;
+  margin-top: -40px;
+  position: relative;
+  z-index: 100;
+  padding-top: 80px;
+  text-align: center;
+  color: #001d42; }
+  #yellow_band h1 {
+    font-family: 'Droid Serif', sans-serif;
+    color: #02497d; }
+  #yellow_band p {
+    padding: 30px 0;
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 24px; }
+  #yellow_band a {
+    display: block;
+    margin: 0 auto;
+    width: 255px;
+    height: 37px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding-top: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    background: #1286c1;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #1286c1 0%, #044f97 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1286c1), color-stop(100%, #044f97));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1286c1 0%, #044f97 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1286c1 0%, #044f97 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1286c1 0%, #044f97 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #1286c1 0%, #044f97 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1286c1', endColorstr='#044f97',GradientType=0 );
+    /* IE6-9 */
+    box-shadow: 2px 2px 1px #d68b1a; }
+  #yellow_band a:hover {
+    background: #044f97;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #044f97 0%, #1286c1 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #044f97), color-stop(100%, #1286c1));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #044f97 0%, #1286c1 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #044f97 0%, #1286c1 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #044f97 0%, #1286c1 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #044f97 0%, #1286c1 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#044f97', endColorstr='#1286c1',GradientType=0 );
+    /* IE6-9 */ }
+
+#services {
+  background-color: #086bb0;
+  border-top: 10px solid #fff;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 200%;
+  margin: -40px -50% 0 -50%;
+  position: relative;
+  z-index: 200;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align: center;
+  -webkit-box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.75); }
+  #services h1 {
+    color: #fdbd33;
+    font-family: 'Droid Serif', serif; }
+  #services h2 {
+    color: #fdbd33;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+    left: 70px; }
+  #services p {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 70px;
+    top: 20px; }
+  #services div > div {
+    display: inline-block;
+    width: 40%;
+    height: 80px;
+    text-align: left;
+    position: relative;
+    margin: 20px 20px; }
+  #services h1 + div {
+    margin-top: 50px; }
+  #services span {
+    display: inline-block;
+    color: #fdbd33;
+    font-size: 55px;
+    position: absolute;
+    left: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
+
+#cta {
+  background-color: #a9c5d6;
+  text-align: center;
+  color: #001032;
+  font-family: 'Oswald', sans-serif;
+  padding: 50px 0; }
+  #cta h3 {
+    font-size: 26px; }
+  #cta h3 + h3 {
+    font-size: 38px; }
+
+/*
+------------------
+      Footer
+-------------------
+*/
+footer {
+  display: block;
+  background-color: #001032;
+  color: #ffffff;
+  font-size: 14px;
+  height: 200px;
+  position: relative; }
+  footer p > a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+    font-size: 16px; }
+  footer img + p {
+    font-size: 18px;
+    margin: 5px 0; }
+  footer div > div {
+    display: inline-block;
+    position: absolute;
+    top: 50px; }
+  footer #contact {
+    right: 0;
+    text-align: center;
+    font-family: 'Droid Serif', serif; }
+    footer #contact p {
+      font-size: 20px;
+      display: block;
+      margin: 5px 0; }
+
+/*
+------------------
+    Overlay
+-------------------
+*/
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px; }
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%; }
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1; }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/*# sourceMappingURL=main.css.map */

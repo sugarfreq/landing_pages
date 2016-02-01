@@ -1,0 +1,161 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media screen and (min-width: 50px) and (max-width: 880px){
+
+    #hero{
+        background: $AoPcolor;
+        height: auto;
+        h1{
+            color:#ffffff;
+            padding-top: 110px;
+        }
+    }
+    #signup{
+        position: static;
+    }
+
+    #landing{
+        padding: 0 40px 20px 40px;
+    }
+    input[type="submit"]{
+        margin: 0 auto;
+    }
+
+    section#section1, section#section2, section#section3{
+
+        .image{
+            display: table-header-group;
+
+            img{
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+
+        .text{
+            text-align: center;
+            padding: 0 20px;
+        }
+    }
+
+    footer{
+        h1{
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 50px) and (max-width:650px){
+    header{
+        height: auto;
+    }
+    header img{
+        display: block;
+        float: none;
+        margin: 0 auto;
+        padding-right: 60px;
+        padding-top: 15px;
+    }
+    header #phone{
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: auto;
+
+        span{
+            display: none;
+        }
+
+        p{
+            margin: 0;
+            padding: 0 0 10px 0;
+            text-align: center;
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    footer{
+        text-align: center;
+        
+        img{
+            padding-right:  60px;
+        }
+
+        p{
+            padding-left: 0;
+        }
+        .links{
+            display: none;
+        }
+
+        .right_footer{
+            display: block;
+            text-align: center;
+            position: static;
+        }
+    }
+
+
+    section#section1, section#section2{
+        .text{
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 50px) and (max-width: 500px){
+    header{
+        height: auto;
+        position: static;
+        padding: 10px 0;
+
+        #phone{
+            height: auto;
+        }
+        img{
+            float: none;
+            margin: 0 auto;
+            display: block;
+            padding: 0 0 0 0;
+        }
+        div{
+            height: auto;
+            float: none;
+            margin: 0 auto;
+            height: auto;
+        }
+        p{
+            text-align: center;
+            padding: 5px 0;
+            line-height: 1em;
+        }
+    }
+
+    #hero{
+        height: auto;
+
+        h1{
+            padding-top: 20px;
+        }
+    }
+    #signup{
+        width: 100%;
+    }
+    .half-form{
+        display: block;
+        width: 100%;
+        margin: 15px auto;
+    }
+    section#section2 img{
+        max-width: 500px;
+        width: 100%;
+    }
+
+}

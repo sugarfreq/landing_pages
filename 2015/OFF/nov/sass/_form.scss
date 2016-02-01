@@ -1,0 +1,139 @@
+/*
+---------------
+    form
+---------------
+*/
+#form {
+	margin-bottom: 30px;
+	margin-left: 50px;
+	padding-bottom: 70px;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	right: 0;
+	top:-20px;
+
+
+	h1{
+		display: block;
+		height: 50px;
+		width: 100%;
+	}
+
+	p{
+		font-size: 12px;
+		color: #ffffff;
+		text-align: center;
+		width: 400px;
+		margin: 7px auto 0 auto;
+	}
+}
+
+#lead_capture{
+	width: 400px;
+	display: inline-block;
+
+	div{
+		margin: 15px 0;
+		width: 400px;
+		position: relative;
+	}
+
+	label {
+		display: block;
+		color: #ffffff;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	input[type="text"]{
+		width: 100%;
+		height: 30px;
+		border-radius: 7px;
+		border: 1px solid #C5C5C5;
+		padding: 5px;
+	}
+
+	input:focus, select:focus{
+		outline: none;
+		border: 2px solid #032c5b;
+	}
+
+	select {
+		width: 400px;
+		height: 30px;
+		padding-left: 10px;
+		border-radius: 7px;
+		border: 1px solid #C5C5C5;
+		vertical-align: bottom;
+	}
+
+	.red{
+		color: #e81111;
+		font-size: 14px;
+		margin: 0;
+		padding: 0 5px 0 5px;
+	}
+
+	input[type="submit"] {
+		display: block;
+
+		background-color: #fdbc30;
+		color: #032c5b;
+		font-size: 16px;
+
+		border-radius: 10px;
+		border: medium none;
+
+		padding: 5px 10px;
+		width: 210px;
+		margin: 0 auto 0 auto;
+
+		transition: all 200ms ease-out;
+	}
+
+	input[type="submit"]:hover{
+		background-color: #001032;
+		color: #b9cfdd;
+	}
+
+}
+
+span#state-select, span#market-select{
+			padding: 0;
+			font-size: 0px;
+		}
+
+@supports (pointer-events: none) and
+      ((-webkit-appearance: none) or
+      (-moz-appearance: none) or
+      (appearance: none) or 
+      (-ms-appearance: none) or 
+      (-o-appearance: none)) {
+
+      	#lead_capture select{
+		    -webkit-appearance:none;
+		    -moz-appearance:none;
+		    -ms-appearance: none;
+		    -o-appearance: none;
+		    appearance:none;
+
+		    padding-right: 25px;
+		    position: relative;
+		    z-index: 100;
+		}
+
+		
+
+		span#state-select::after, span#market-select::after{
+			content: "\e613";
+			font-family:'officite';
+			color: rgba(0, 20, 54, 0.9);
+			font-size: 14px;
+			position: absolute;
+			top: 24px;
+			right: 6px;
+			pointer-events: none;
+			z-index: 300;
+		}
+}

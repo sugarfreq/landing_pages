@@ -1,0 +1,223 @@
+/*
+---------------
+    form
+---------------
+*/
+#hero div>div#get_form {
+	margin-bottom: 30px;
+
+	h1{
+		display: block;
+		height: 50px;
+		width: 100%;
+	}
+
+	span{
+		font-family: 'Droid Serif', serif;
+		text-transform: none;
+	}
+
+	p{
+		font-size: 12px;
+		color: #ffffff;
+		text-align: center;
+		width: 400px;
+		margin: 7px auto 0 auto;
+	}
+}
+
+#lead_capture{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+
+	div{
+		display: inline-block;
+		height:40px;
+		margin: 5px 0;
+		position: relative;
+	}
+
+	label{
+		color: #001e43;
+		font-size: 14px;
+		text-align: left;
+		display: block;
+		margin-top: -29px;
+		margin-left: 10px;
+
+		-webkit-transition: transform 0.25s ease-out;
+		-moz-transition: transform 0.25s ease-out;
+		-ms-transition: transform 0.25s ease-out;
+		-o-transition: transform 0.25s ease-out;
+		transition-duration: 0.2s;
+
+		-webkit-transform: translate(0, 0) scale(1,1);
+		-moz-transform: translate(0, 0) scale(1,1);
+		-ms-transform: translate(0, 0) scale(1,1);
+		-o-transform: translate(0, 0) scale(1,1);
+		transform: translate(0, 0) scale(1,1);
+		transform-origin: left bottom;
+	}
+
+	label#promocode{
+		display: inline-block;
+		color: #ffffff;
+		text-align: left;
+	}
+
+	div.promo{
+		margin: 0;
+		padding-right: 10px;
+	}
+
+	.red{
+		color: #e81111;
+		font-size: 14px;
+		margin: 0;
+		padding: 0 5px 0 5px;
+	}
+
+	.select.red{
+		vertical-align: top;
+	}
+
+	input[type="text"]{
+		border-radius: 10px;
+		border: none;
+		height: 30px;
+
+		margin: 5px 0;
+		padding: 5px;
+	}
+
+	input#first_name[type="text"], input#last_name[type="text"]{
+		width: 150px;
+		margin-right: 5px;
+	}
+
+	input#email[type="text"], input#phone[type="text"]{
+		width: 310px;
+	}
+
+	input#promo{
+		width: 200px;
+	}
+
+	input:focus, select:focus{
+		outline: none;
+		border: 3px solid #fdbd33;
+	}
+
+	input[type="text"]:focus+label, input[type="text"].entered+label {
+		color: #ffffff;
+		-webkit-transform: translate(-3px, -26px) scale(0.7, 0.7);
+		-moz-transform: translate(-3px, -26px) scale(0.7, 0.7);
+		-ms-transform: translate(-3px, -26px) scale(0.7, 0.7);
+		-o-transform: translate(-3px, -26px) scale(0.7, 0.7);
+		transform: translate(-3px, -26px) scale(0.7, 0.7);
+	}
+
+	select{
+		height: 30px;
+		border: none;
+	    border-radius: 10px;
+	    padding-left: 10px;
+	    font-size: 14px;
+	    vertical-align: bottom;
+	    
+	}
+
+	select#state{
+		width: 100px;
+		margin-left:4px;
+	}
+
+	select[title="Market"]{
+		width: 182px;
+	}
+	input[type="submit"] {
+		display: block;
+
+		background-color: #fdbd33;
+		color: #001e43;
+		font-family: 'Oswald';
+		font-weight: 500;
+		font-size: 14px;
+
+		border-radius: 10px;
+		border: medium none;
+
+		padding: 5px 10px;
+		width: 170px;
+		margin: 10px auto 0 auto;
+
+		transition: all 200ms ease-out;
+	}
+
+	input[type="submit"]:hover{
+		background-color: #001032;
+		color: #ffffff;
+	}
+}
+
+span#state-select, span#market-select{
+			padding: 0;
+			font-size: 0px;
+		}
+
+@supports (pointer-events: none) and
+      ((-webkit-appearance: none) or
+      (-moz-appearance: none) or
+      (appearance: none) or 
+      (-ms-appearance: none) or 
+      (-o-appearance: none)) {
+
+      	#lead_capture select{
+		    -webkit-appearance:none;
+		    -moz-appearance:none;
+		    -ms-appearance: none;
+		    -o-appearance: none;
+		    appearance:none;
+
+		    padding-right: 25px;
+		    position: relative;
+		    z-index: 100;
+		}
+
+		
+
+		span#state-select::before, span#market-select::before{
+			background-color: #fdbd33;
+			border-radius: 0 10px 10px 0;
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 15px;
+			bottom: 10px;
+			width: 25px;
+			pointer-events: none;
+			z-index: 200;
+		}
+
+		span#state-select::after, span#market-select::after{
+			content: "\e613";
+			font-family:'officite';
+			color: rgba(0, 20, 54, 0.9);
+			font-size: 14px;
+			position: absolute;
+			top: 5px;
+			right: 21px;
+			pointer-events: none;
+			z-index: 300;
+		}
+}
+
+.overlay{
+	background-color: rgba(0, 20, 54, 0.98);
+	position: absolute;
+	width: 100%;
+	height: 250%;
+	z-index: 250;
+	margin-top: -30px;
+}

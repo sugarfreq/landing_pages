@@ -1,0 +1,44 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+html{
+  	background: url('../img/hero-bkgrd.jpg') no-repeat center 88px fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  }
+
+#hero{
+	margin-top: 100px;
+	height: auto;
+	font-family: 'Oswald', sans-serif;
+	border-top: 10px solid #f7a329;
+
+	h1{
+		text-align: center;
+		padding: 50px 0 0 0;
+		color: #ffffff;
+		text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	}
+
+	h2{
+		text-align: center;
+		color: #ffffff;
+		font-weight: 300;
+		text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+		padding-bottom: 20px;
+	}
+
+	img{
+		display: inline-block;
+		padding-bottom: 30px;
+
+	}
+}
+
+@import 'form.scss';
+

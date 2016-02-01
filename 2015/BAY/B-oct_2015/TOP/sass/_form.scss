@@ -1,0 +1,90 @@
+/*
+--------------
+    Form
+--------------
+*/
+
+#signup{
+	width: 40%;
+	display: inline-block;
+
+	position: absolute;
+	right: 40px;
+}
+
+form#landing{
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 15px;
+}
+
+input[type="submit"] {
+	display: block;
+
+	background-color: $sec-color;
+	color: $grad_start;
+	font-family: 'Oswald';
+
+	border-radius: 10px;
+	border: medium none;
+
+	padding: 10px 20px;
+	width: 190px;
+	margin: -3px auto;
+
+	transition: all 300ms ease-out;
+}
+
+input[type="submit"]:hover{
+	background-color: $main-color;
+	color: #fff;
+}
+
+#signup .half-form{
+	display: inline-block;
+	width: 47%;
+	margin: 0 auto;
+}
+
+input + div{
+	margin-left: 10px !important;
+}
+
+#signup div{
+	display: block;
+	width: 100%;
+	margin: 27px auto;
+}
+
+input[type="text"]{
+	background-color: #FFFFFF;
+	color: $dk_gray;
+    border: 1px solid #c7cad3;
+    border-radius: 10px;
+
+    font-size: 12px;
+    height: 32px;
+    padding: 5px 10px;
+    margin: 0 auto;
+
+    display: block;
+
+    width: 90%;
+}
+
+input[type="text"]:focus{
+	border: 2px solid $sec-color;
+	outline: none;
+}
+
+label {
+	display: block;
+	color: #ffffff;
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+.half-form label{
+	margin-left: 10px;
+}

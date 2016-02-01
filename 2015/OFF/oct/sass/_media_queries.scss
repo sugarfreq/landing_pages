@@ -1,0 +1,76 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media screen and (max-width: 900px){
+
+	#headline{
+		width: 300px;
+		height: 300px;
+	}
+
+	#hero{
+		h1{
+			padding: 95px 30px 0 0;
+			font-size: 50px;
+			text-align: center;
+		}
+		h2{
+			font-size: 40px;
+			padding-left: 0;
+			text-align: center;
+		}
+	}
+
+	#rsvp{
+		h1{
+			padding: 110px 0 0 0;
+			font-size: 50px;
+			text-align: center;
+		}
+
+		p{
+			font-size: 12px;
+			padding: 0;
+		}
+	}
+
+}
+
+@media screen and (max-width: 675px){
+	#headline{
+		display: block;
+		margin: 0 auto;
+	}
+
+	#hero{
+		height: auto;
+
+		img{
+			display: block;
+			position: static;
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+
+	#invited{
+		padding-top: 30px;
+	}
+
+	main{
+		h1{
+			padding-top: 30px;
+		}
+	}
+
+	#form{
+		margin-left: 0;
+	}
+
+	#lead_capture{
+		width: 100%;
+	}
+
+}

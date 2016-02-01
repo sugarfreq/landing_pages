@@ -1,0 +1,145 @@
+/*
+---------------------
+    Main Content
+---------------------
+*/
+.three-column{
+	background-color: $AoPcolor2;
+	padding: 50px 0;
+
+	h1{
+		display: block;
+		margin: 0 auto;
+		width: 96%;
+		max-width: 1000px;
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
+	h2{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		display: inline-block;
+		width: 140px;
+		vertical-align: middle;
+	}
+	img{
+		display: inline-block;
+		width: 100%;
+		max-width: 100px;
+		vertical-align: middle;
+	}
+	.container{
+		display: flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		flex-wrap:  wrap;
+		-webkit-flex-wrap:  wrap;
+		-moz-flex-wrap:  wrap;
+		-ms-flex-wrap:  wrap;
+		justify-content: center;
+		-webkit-justify-content: center;
+		-moz-justify-content: center;
+		-ms-justify-content: center;
+	}
+	.column {
+		width: 300px;
+		padding-right: 20px;
+	}
+	div:last-child{
+		padding: 0;
+	}
+}
+
+.two-column{
+	position: relative;
+	padding: 100px 0;
+	z-index: 800;
+
+	.container{
+		display: table;
+	}
+
+	.text{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.image{
+		display: table-cell;
+		vertical-align: middle;
+
+		
+	}
+	h1{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: $black;
+		font-size: 36px;
+		padding-bottom: 10px;
+	}
+
+	p{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: $black;
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+
+section#section1{ 
+	background: url('../img/RGbkgrd.jpg') no-repeat right top;
+	padding: 150px 0 100px 0;
+
+	img{
+		max-width: 473px;
+	}
+
+	.text{
+		padding-left: 40px;
+	}
+}
+
+section#section2{ 
+	background: url('../img/VTbkgrd.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+    border-top: 1px solid #ddd;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.12);
+    
+	.text{
+		padding-right: 40px;
+	}
+
+	h1{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: $black;
+		font-size: 36px;
+		padding-bottom: 10px;
+	}
+
+	p{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: $black;
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+
+section#section3{
+	.text{
+		padding-left: 40px;
+	}
+	img{
+		max-width: 473px;
+	}
+}

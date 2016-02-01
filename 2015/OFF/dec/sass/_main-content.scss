@@ -1,0 +1,160 @@
+/*
+---------------------
+    Main Content
+---------------------
+*/
+section#offer{
+	background: #fff;
+	color: #03276a;
+	font-family: 'Lato', Sans-serif;
+	h1{
+		padding: 0 0 0 30px;
+		font-size: 72px;
+		display: inline-block;
+
+	}
+
+	p{
+		padding: 0 30px;
+	}
+
+	.section_header{
+		p{
+			padding: 10px 0;
+		}
+	}
+
+	img{
+		display: inline-block;
+		align: middle;
+		width: 40%;
+		padding: 100px 0;
+	}
+
+	.font{
+		position: relative;
+		display: inline-block;
+		align: bottom;
+	}
+
+	.text{
+		width: 55%;
+		display: inline-block;
+		align: middle;
+	}
+
+	#percent{
+		font-size: 40px;
+		position: relative;
+		top: 0;
+		line-height: 20px;
+	}
+
+	#off{
+		font-size: 30px;
+		line-height: 20px;
+	}
+}
+
+section#package{
+	background: url('../img/package-bkgrd.jpg') center center;
+	color: #ffffff;
+	
+	font-family: 'Lato', Sans-serif;
+	position: relative;
+
+	h1{
+		text-transform: uppercase;
+	}
+
+	p{
+		padding: 10px 0;
+	}
+
+	h2{
+		color: #03276a;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 16px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.text{
+		width: 55%;
+		position: relative;
+		top:0;
+		left: 0;
+		padding: 140px 0;
+	}
+
+	.services{
+		width: 340px;
+		position: absolute;
+		top:0;
+		right: 0;
+		padding: 30px 0;
+	}
+
+	span{
+		color: #03276a;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 38px;
+	}
+
+	.services div{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.tier1{
+		padding-left:75px;
+	}
+
+	.tier2{
+		padding-left:45px;
+	}
+
+	.tier3{
+		padding-left: 25px;
+	}
+
+
+}
+
+section#cta{
+	background-color: #e7f2f8;
+	text-align: center;
+	text-transform: uppercase;
+	color: #0c1c3b;
+	padding: 70px 0;
+
+	h1{
+		font-weight: 500;
+	}
+
+	a{
+		display: block;
+		margin: 20px auto 0 auto;
+		width: 200px;
+		background-color: #0c1c3b;
+		color: #ffffff;
+		padding: 10px 0;
+		border-radius: 20px;
+	}
+}
+
+.section_header{
+	display: block;
+	width: 35%;
+	position: relative;
+	top:0;
+	background-color: #0077c0;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}

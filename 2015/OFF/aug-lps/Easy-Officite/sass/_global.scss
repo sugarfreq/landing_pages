@@ -1,0 +1,92 @@
+/*
+---------------
+    Global
+---------------
+*/
+
+body{
+    background: url(../img/background.png) top right repeat-x;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.shadow {
+    text-shadow: 3px 3px 5px #404040;
+}
+
+.glow{
+    text-shadow: 0 0 2px #4687c7;
+}
+
+.caps {
+    text-transform: uppercase !important;
+}
+
+.container {
+    width: 96%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+
+    border-right: 2px solid #fcb32b;
+
+}
+
+.rtjust{
+    text-align: right;
+}
+
+.lfjust{
+    text-align: left;
+}
+
+.ctjust{
+    text-align: center;
+}
+
+.ltweight{
+    font-weight: 300;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.third{
+    width: 25%;
+}
+
+.right_col {
+    width: 40%;
+    display: inline-block;
+    margin: 0 20px 0 15px;
+}
+
+.left_col {
+    width: 52%;
+    display: inline-block;
+    margin: 0 15px 0 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+h1, h2, h3, p{
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Droid Serif';
+}
+
+.red{
+    color: #ff0000;
+}

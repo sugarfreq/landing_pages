@@ -1,0 +1,107 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: AACD_bifold_1215_B.indd
+
+PACKAGE DATE: 11/5/15 2:05 PM
+Creation Date: 11/5/15
+Modification Date: 11/5/15
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On PageNA, 1, 2
+
+FONTS
+11 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: Allura-Regular; Type: OpenType Type 1, Status: OK
+- Name: Lato-Black; Type: TrueType, Status: OK
+- Name: Lato-BlackItalic; Type: TrueType, Status: OK
+- Name: Lato-HeavyItalic; Type: TrueType, Status: OK
+- Name: Lato-Italic; Type: TrueType, Status: OK
+- Name: Lato-Light; Type: TrueType, Status: OK
+- Name: Lato-LightItalic; Type: TrueType, Status: OK
+- Name: Lato-Medium; Type: TrueType, Status: OK
+- Name: Lato-MediumItalic; Type: TrueType, Status: OK
+- Name: Lato-Regular; Type: TrueType, Status: OK
+- Name: Lato-SemiboldItalic; Type: TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 2 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 75.000; Lines/Inch: 70.000
+- Name and Type: Process Magenta; Angle: 15.000; Lines/Inch: 70.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 70.000
+- Name and Type: Process Black; Angle: 45.000; Lines/Inch: 70.000
+- Name and Type: PANTONE 136 C; Angle: 45.000; Lines/Inch: 70.000
+- Name and Type: PANTONE 2935 C; Angle: 45.000; Lines/Inch: 70.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 9 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 0 use RGB color space
+
+
+PRINT SETTINGS
+PPD: HP LaserJet 400 colorMFP M475dn, (HP LaserJet 400 colorMFP M475dn (047A57))
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: Scale to fit page
+Page Position: Center
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0 in, 0 in, 0 in, 0 in
+Color: Composite RGB
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 8.25 in x 11 in
+Paper Dimensions: 8.5 in x 11 in
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. AACD_bifold_1215_B.indd; type: Adobe InDesign publication; size: 2424K
+2. AACD_bifold_1215_B.idml; type: InDesign Markup Document; size: 200K
+3. AACD_bifold_1215_B.pdf; type: Adobe Acrobat Document; size: 2124K
+4. Allura-Regular.otf; type: Font file; size: 47K
+5. Lato-Black.ttf; type: Font file; size: 576K
+6. Lato-BlackItalic.ttf; type: Font file; size: 633K
+7. Lato-HeavyItalic.ttf; type: Font file; size: 659K
+8. Lato-Italic.ttf; type: Font file; size: 683K
+9. Lato-Light.ttf; type: Font file; size: 605K
+10. Lato-LightItalic.ttf; type: Font file; size: 619K
+11. Lato-Medium.ttf; type: Font file; size: 598K
+12. Lato-MediumItalic.ttf; type: Font file; size: 655K
+13. Lato-Regular.ttf; type: Font file; size: 617K
+14. Lato-SemiboldItalic.ttf; type: Font file; size: 658K

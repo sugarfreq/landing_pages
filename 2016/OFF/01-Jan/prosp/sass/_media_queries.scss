@@ -1,0 +1,121 @@
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media screen and (max-width: 865px){
+  .menu-products-menu-container{
+    width: 50%;
+  }
+  #prod_right{
+    display: none;
+  }
+  #gate{
+    margin-top: -50px;
+    .table-cell, .sub{
+      text-align: center;
+      padding: 0 5%;
+    }
+  }
+
+  #tab-2 .table-cell{
+      display: table-header-group;
+    }
+
+  div#form.table-cell{
+    display: table-header-group;
+    width: 100%
+  }
+  #lead_capture{
+    margin: 0 auto 30px auto;
+    input[type="submit"]{
+      position: relative;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 675px){
+    .tabs h1{
+      display: block;
+    }
+
+    #hero a, #CTA a{
+      width: 80%;
+    }
+
+    .tabs .tabs-nav{
+      display: none;
+    }
+
+    .tabs .tab{
+      display: block;
+      margin-bottom: 40px;
+    }
+
+    .tab{
+      padding-top: 0;
+    }
+
+    .tabs .tab:last-child{
+      margin-bottom: 0;
+    }
+    .columns{
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+     flex-direction: column;
+    }
+    .col-3{
+      padding-bottom: 20px;
+    }
+    .col-3:last-child{
+      padding-bottom: 0;
+    }
+
+    #tab-2 img{
+      width: 60%;
+      max-width: 369px;
+    }
+    #tab-2.tab-content p, #tab-2.tab-content ul, #tab-2.tab-content ul li{
+      padding-left: 0;
+      text-align: center;
+    }
+    .menu-products-menu-container{
+	    display: none;
+	  }
+
+	  #company{
+	    display: none;
+	  }
+	footer img{
+	    margin: 0 auto;
+	  }
+}
+
+@media screen and (max-width: 450px){
+  header{
+    position: static;
+  }
+  #hero{
+    padding-top: 0px;
+    div>hr{
+      display: none;
+    }
+    img{
+      margin-top: 0;
+      padding-top: 40px;
+    }
+  }
+  #lead_capture{
+    width: 80%;
+    padding-left: 0;
+    label{
+      display: block;
+      text-align: center;
+    }
+    input[type="text"], input[type="submit"], label, select{
+      width: 100%;
+    }
+  }
+}

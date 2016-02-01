@@ -1,0 +1,35 @@
+/*
+---------------
+    Global
+---------------
+*/
+
+.columns{
+	display: -webkit-box;      
+  	display: -moz-box;         
+  	display: -ms-flexbox;      
+  	display: -webkit-flex;    
+  	display: flex;   
+    justify-content: space-between;
+
+}
+
+.col-3{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.table{
+	display: table;
+}
+
+.table-cell{
+	display: table-cell;
+	vertical-align: top;
+}
+
+ul{
+	list-style: none;
+
+}

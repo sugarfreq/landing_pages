@@ -1,0 +1,84 @@
+/*
+-------------
+    Hero
+-------------
+*/
+
+#hero{
+	background: #001e43; /* Old browsers */
+	background: -moz-linear-gradient(top, #001e43 0%, #024a7e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#001e43), color-stop(100%,#024a7e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #001e43 0%,#024a7e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #001e43 0%,#024a7e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #001e43 0%,#024a7e 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #001e43 0%,#024a7e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e43', endColorstr='#024a7e',GradientType=0 ); /* IE6-9 */
+
+	color: #a9c5d6;
+
+	border-bottom: 10px solid #fff;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	width: 200%;
+
+	margin: 55px -50% 0 -50%;
+
+	position: relative;
+	z-index: 300;
+
+	-webkit-box-shadow: inset 0 -2px 7px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0 -2px 7px rgba(0,0,0,0.75);
+	box-shadow: inset 0 -2px 7px rgba(0,0,0,0.75);
+
+	h1{
+		font-family: 'Droid Serif', serif;
+		font-weight: 300;
+		font-size: 45px;
+	}
+
+	span{
+		font-family: 'Oswald', sans-serif;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 0 5px;
+		font-weight: 400;
+		font-size: 40px;
+	}
+
+	div>div{
+		display: inline-block;
+		vertical-align: top;
+		width: 49%;
+		text-align: center;
+		position: relative;
+		margin: 40px 0 50px 0 ;
+
+	}
+
+	img{
+		margin-top: 20px;
+	}
+
+	#get img{
+		position: relative;
+		right: 3px;
+	}
+
+	img+img{
+		position: absolute;
+		top: 27px;
+	}
+
+	#payfor img+img{
+		right: 85px;
+	}
+
+	#get img+img{
+		position: absolute;
+		right: 80px;
+	}
+
+}
+
+
+
